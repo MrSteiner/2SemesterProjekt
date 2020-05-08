@@ -4,30 +4,50 @@
         <script src="/js/jquery-3.5.1.min.js"></script>
         <script src="/js/app.js"></script>
         <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet'>
+        <link href='/css/style.css' type="text/css" rel='stylesheet'>
+         <link href='/css/app.css' rel='stylesheet'>
         
         <style>
             h1 {
-                font-family: 'Oswald'
+                font-family: 'Oswald';
             }
         
         </style>
+        
+        <script>
+            
+            
+            $("document").ready(function() {
+                
+                
+                    $("h1").on("click",function(){
+                        $("h1").removeClass("selected");
+                        $(this).addClass("selected");
+                        console.log("oof");
+                    });
+                
+                
+            });
+        
+        
+        </script>
         
     </head>
     
     
     <body>
-        <div id="Menu Bar" >
-            <div > 
-                <h1 > Steder</h1>
+        <div id="MenuBar" >
+            <div class="menuButton"> 
+                <h1 > STEDER</h1>
             </div>
-            <div > 
-                <h1 > Emner</h1>
+            <div class="menuButton"> 
+                <h1 > EMNER</h1>
             </div>
-            <div > 
-                <h1 > Events</h1>
+            <div class="menuButton"> 
+                <h1 > EVENTS</h1>
             </div>
-            <div > 
-                <h1 > Værker</h1>
+            <div class="menuButton"> 
+                <h1 > VÆRKER</h1>
             </div>
         </div>
         

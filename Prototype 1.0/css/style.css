@@ -1,0 +1,12 @@
+.menuButton {
+    float:left;
+    margin: 20px 20px 20px 20px;
+}
+#MenuBar {
+    margin: auto;
+    width: 50%;
+}
+.selected {
+    text-decoration: underline;
+    text-decoration-color: rgb(237,37,78);
+}
