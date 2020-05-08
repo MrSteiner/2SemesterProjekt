@@ -6,6 +6,7 @@
     margin: auto;
     width: 50%;
     
+    
 }
 .selected {
     text-decoration: underline;
@@ -13,7 +14,7 @@
 }
 #ContentBox{
    position: relative;
-    top: 10%;
+    top: 100px;
     margin-left: auto;
     margin-right: auto;
     
