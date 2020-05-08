@@ -5,8 +5,22 @@
 #MenuBar {
     margin: auto;
     width: 50%;
+    
 }
 .selected {
     text-decoration: underline;
     text-decoration-color: rgb(237,37,78);
+}
+#ContentBox{
+   position: relative;
+    top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    
+    width: 70%;
+   
+}
+.contentBlock{
+    float: left;
+     margin: 20px 20px 20px 20px;
 }
