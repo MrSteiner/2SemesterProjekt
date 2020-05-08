@@ -16,15 +16,27 @@
         
         <script>
             
-            
             $("document").ready(function() {
                 
                 
-                    $("h1").on("click",function(){
-                        $("h1").removeClass("selected");
-                        $(this).addClass("selected");
-                        console.log("oof");
-                    });
+                $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/museums.json", success: function(result){
+                    var museums = JSON.parse(result);
+                    
+                    
+                        
+                   
+                    
+                    for(var i = 0; i <museums.length;i++){
+                        $("#ContentBox").append(`<div> <h1>${museums[i].navn} </h1></div>`);
+                    }
+                    
+                }})
+                
+                $("h1").on("click",function(){
+                    $("h1").removeClass("selected");
+                    $(this).addClass("selected");
+                    console.log("oof");
+                });
                 
                 
             });
@@ -52,7 +64,7 @@
         </div>
         
         
-        <div id="Content Box">
+        <div id="ContentBox">
         
         
         
