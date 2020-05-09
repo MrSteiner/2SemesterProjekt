@@ -13,17 +13,18 @@
     text-decoration-color: rgb(237,37,78);
 }
 #ContentBox{
-   position: relative;
+   position: fixed;
     top: 100px;
     margin-left: auto;
     margin-right: auto;
-    
     width: 70%;
+    left:15%;
    
 }
 .contentBlock{
-    float: left;
+    float:left;
      margin: 20px 20px 20px 20px;
     width:20%;
     color: white;
+    position: relative;
 }
