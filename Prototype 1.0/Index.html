@@ -35,9 +35,18 @@
                              
                     }
                 }
-                
-                   
                 })};
+                function addEvents(){
+                    $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/events.json", success: function(result){
+                        events = JSON.parse(result)
+                         for(var i = 0; i <events.length;i++){
+                        $("#ContentBox").append(`<div class="contentBlock" style='background-color:rgb(${events[i].farve});'> <img src="${events[i].billede}"> <h2>${events[i].navn} </h2> <p> ${events[i].beskrivelse}</div>`);
+                             
+                    }
+                }
+                })};
+                   
+                
                 
                 addSteder();
                     
@@ -50,12 +59,17 @@
                 
                 $("#Steder").on("click",function(){;
                 addSteder();
-                console.log("yike");
-                
-                
-                
                 });
         
+                
+                $("#Events").on("click",function(){;
+                addEvents();
+                console.log("yike");
+                });
+        
+                
+                
+                
             });
         
         </script>
@@ -72,7 +86,7 @@
                 <h1 > EMNER</h1>
             </div>
             <div class="menuButton"> 
-                <h1 > EVENTS</h1>
+                <h1 id="Events"> EVENTS</h1>
             </div>
             <div class="menuButton"> 
                 <h1 > VÆRKER</h1>
