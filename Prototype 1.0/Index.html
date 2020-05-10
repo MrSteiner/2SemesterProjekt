@@ -25,7 +25,7 @@
             
             $("document").ready(function() {
                 
-                
+              
                 
                 function addSteder(){
                     $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/museums.json", success: function(result){
@@ -45,6 +45,27 @@
                     }
                 }
                 })};
+                function addEmner(){
+                    $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/emner.json", success: function(result){
+                        emner = JSON.parse(result)
+                         for(var i = 0; i <events.length;i++){
+                        $("#ContentBox").append(`<div class="contentBlock" style='background-color:rgb(${emner[i].farve});'> <img src="${emner[i].billede}"> <h2>${emner[i].navn} </h2> <p> ${emner[i].beskrivelse}</div>`);
+                             
+                    }
+                }
+                })};
+                
+                function addVærker(){
+                    $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/v%C3%A6rker.json", success: function(result){
+                        Værker = JSON.parse(result)
+                         for(var i = 0; i <Værker.length;i++){
+                        $("#ContentBox").append(`<div class="contentBlock" style='background-color:rgb(${Værker[i].farve});'> <img src="${Værker[i].billede}"> <h2>${Værker[i].navn} </h2> <p> ${Værker[i].beskrivelse}</div>`);
+                             
+                    }
+                }
+                })};
+                   
+                   
                    
                 
                 
@@ -61,10 +82,16 @@
                 addSteder();
                 });
         
-                
                 $("#Events").on("click",function(){;
                 addEvents();
-                console.log("yike");
+                });
+                
+                $("#Emner").on("click",function(){;
+                addEmner();
+                });
+                
+                $("#Værker").on("click",function(){;
+                addVærker();
                 });
         
                 
@@ -83,13 +110,13 @@
                 <h1 id="Steder"> STEDER</h1>
             </div>
             <div class="menuButton"> 
-                <h1 > EMNER</h1>
+                <h1 id="Emner"> EMNER</h1>
             </div>
             <div class="menuButton"> 
                 <h1 id="Events"> EVENTS</h1>
             </div>
             <div class="menuButton"> 
-                <h1 > VÆRKER</h1>
+                <h1 id="Værker"> VÆRKER</h1>
             </div>
         </div>
         
