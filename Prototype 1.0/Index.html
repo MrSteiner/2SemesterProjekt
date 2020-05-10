@@ -48,7 +48,7 @@
                 function addEmner(){
                     $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/emner.json", success: function(result){
                         emner = JSON.parse(result)
-                         for(var i = 0; i <events.length;i++){
+                         for(var i = 0; i <emner.length;i++){
                         $("#ContentBox").append(`<div class="contentBlock" style='background-color:rgb(${emner[i].farve});'> <img src="${emner[i].billede}"> <h2>${emner[i].navn} </h2> <p> ${emner[i].beskrivelse}</div>`);
                              
                     }
