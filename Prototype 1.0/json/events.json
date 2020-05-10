@@ -1,0 +1,42 @@
+[
+    
+    {
+        "navn": "Dea Trier Mørch",
+        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
+        "farve": "77, 157, 224",
+        "billede":"img/Dea.jpg"
+    
+    
+    
+    },
+    {
+        "navn":"Et Hjem I Verden",
+        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
+        "farve": "254,95,85",
+        "billede":"img/etHjem.jpg"
+    },
+    {
+        "navn":"Pixar",
+        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
+        "farve": "6,214,160",
+        "billede":"img/Pixar.jpg"
+    },
+    {
+        "navn":"Sanse Udstilling",
+        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
+        "farve": "254,93,159",
+        "billede":"img/sanse.jpg"
+    },
+    {
+        "navn":"Adam Jeppesen",
+        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
+        "farve": "77, 157, 224",
+        "billede":"img/adamJeppesen.jpg"
+    },
+    {
+        "navn":"Hugo Pratt",
+        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
+        "farve": "254,95,85",
+        "billede":"img/hugoPratt.png"
+    }
+]

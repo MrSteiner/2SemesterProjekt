@@ -26,28 +26,37 @@
             $("document").ready(function() {
                 
                 
-                $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/museums.json", success: function(result){
-                    var museums = JSON.parse(result);
-                    
-                    
-                        
-                   
-                    
-                    for(var i = 0; i <museums.length;i++){
-                        $("#ContentBox").append(`<div class="contentBlock" style='background-color:rgb(${museums[i].farve});'> <img src="${museums[i].billede}"> <h2>${museums[i].navn} </h2> <p> ${museums[i].beskrivelse}</div>`);
-                    }
-                    
-                }})
                 
+                function addSteder(){
+                    $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/museums.json", success: function(result){
+                        museums = JSON.parse(result)
+                         for(var i = 0; i <museums.length;i++){
+                        $("#ContentBox").append(`<div class="contentBlock" style='background-color:rgb(${museums[i].farve});'> <img src="${museums[i].billede}"> <h2>${museums[i].navn} </h2> <p> ${museums[i].beskrivelse}</div>`);
+                             
+                    }
+                }
+                
+                   
+                })};
+                
+                addSteder();
+                    
                 $("h1").on("click",function(){
                     $("h1").removeClass("selected");
                     $(this).addClass("selected");
+                    $("#ContentBox").empty();
                     console.log("oof");
                 });
                 
+                $("#Steder").on("click",function(){;
+                addSteder();
+                console.log("yike");
                 
-            });
+                
+                
+                });
         
+            });
         
         </script>
         
@@ -57,7 +66,7 @@
     <body>
         <div id="MenuBar" >
             <div class="menuButton"> 
-                <h1 > STEDER</h1>
+                <h1 id="Steder"> STEDER</h1>
             </div>
             <div class="menuButton"> 
                 <h1 > EMNER</h1>
