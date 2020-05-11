@@ -31,7 +31,7 @@
                     $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/museums.json", success: function(result){
                         museums = JSON.parse(result)
                          for(var i = 0; i <museums.length;i++){
-                        $("#ContentBox").append(`<div class="contentBlock" style='background-color:rgb(${museums[i].farve});'> <img src="${museums[i].billede}"> <h2>${museums[i].navn} </h2> <p> ${museums[i].beskrivelse}</div>`);
+                        $("#ContentBox").append(`<div class="contentBlock stedBlock" id="${meseums[i].id}" style='background-color:rgb(${museums[i].farve});'> <img src="${museums[i].billede}"> <h2>${museums[i].navn} </h2> <p> ${museums[i].beskrivelse}</div>`);
                              
                     }
                 }
@@ -64,7 +64,22 @@
                     }
                 }
                 })};
-                   
+                
+                $("#stedBlock").on("click", function(){
+                   $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/museums.json", success: function(result){
+                            museums = JSON.parse(result);
+                            var sted;
+                            $("#ContentBox").empty();
+                            for(var i = 0; i <museums.length;i++){
+                                    if (museums[i].id == this.attr("id")){
+                                        sted = museums[i].id;
+                                    }
+                                }   
+                            $("#ContentBox").append(`<div><img src="${sted.billede}"></div>`)
+                       
+                            }  
+                          });
+                });
                    
                    
                 

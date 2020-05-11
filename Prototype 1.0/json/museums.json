@@ -4,7 +4,8 @@
         "navn": "Brandts",
         "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "77, 157, 224",
-        "billede":"img/brandts.jpg"
+        "billede":"img/brandts.jpg",
+        "id":"brandtsMuseum"
     
     
     
@@ -13,30 +14,35 @@
         "navn":"møntergården",
         "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "254,95,85",
-        "billede":"img/møntergården.jpg"
+        "billede":"img/møntergården.jpg",
+        "id":"møntergårdernMuseum"
     },
     {
         "navn":"Den Fynske Landsy",
         "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "6,214,160",
-        "billede":"img/denFynskeLandsby.jpg"
+        "billede":"img/denFynskeLandsby.jpg",
+        "id":"denFynskeLandsby"
     },
     {
         "navn":"Danmarks Jernbane Museum",
         "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "254,93,159",
-        "billede":"img/jernbane.jpg"
+        "billede":"img/jernbane.jpg",
+        "id":"jernBaneMuseum"
     },
     {
         "navn":"H. C. Andersen Museum",
         "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "77, 157, 224",
-        "billede":"img/andersen.jpg"
+        "billede":"img/andersen.jpg",
+        "id":"andersenMuseum"
     },
     {
         "navn":"Fyns Kunstmuseum",
         "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "254,95,85",
-        "billede":"img/kunstMuseum.jpg"
+        "billede":"img/kunstMuseum.jpg",
+        "id":"fynsKunstmeseum"
     }
 ]
