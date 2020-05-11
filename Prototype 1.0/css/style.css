@@ -3,9 +3,9 @@
     margin: 20px 20px 20px 20px;
 }
 #MenuBar {
-    margin-left: 30%;
-    text-align: center;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .selected {
     text-decoration: underline;
