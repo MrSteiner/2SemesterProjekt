@@ -23,8 +23,12 @@
 }
 .contentBlock{
     float:left;
-     margin: 20px 20px 20px 20px;
-    width:20%;
+    margin: 20px 20px 20px 20px;
+    width: 275px;
+    height: 750px;
     color: white;
     position: relative;
+}
+.Txt{
+    margin: 5px 15px 5px 15px;
 }
