@@ -4,7 +4,8 @@
         "navn": "Den Standhaftige Tinsoldat",
         "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "77, 157, 224",
-        "billede":"img/tinsoldaten-pa-et-ben.jpg"
+        "billede":"img/tinsoldaten-pa-et-ben.jpg",
+        "id":"standHaftig"
     
     
     
@@ -13,30 +14,35 @@
         "navn":"H.C. Andersen På Bænken",
         "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "254,95,85",
-        "billede":"img/andersen-on-the-bench.jpg"
+        "billede":"img/andersen-on-the-bench.jpg",
+        "id":"andersenBænken"
     },
     {
         "navn":"Kejserens Nye Klæder",
         "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "6,214,160",
-        "billede":"img/emperors-new-clothes.jpg"
+        "billede":"img/emperors-new-clothes.jpg",
+        "id":"kejserensKlæder"
     },
     {
         "navn":"H.C. Andersen Statuen",
         "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "254,93,159",
-        "billede":"img/hans-christian-andersen.jpg"
+        "billede":"img/hans-christian-andersen.jpg",
+        "id":"andersenStatuen"
     },
     {
         "navn":"Papirbåden",
         "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "77, 157, 224",
-        "billede":"img/taet-pa-papirbaden.jpg"
+        "billede":"img/taet-pa-papirbaden.jpg",
+        "id":"papirbåden"
     },
     {
         "navn":"Knud den Hellige",
         "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "254,95,85",
-        "billede":"img/odense-kanute-the-holy.jpg"
+        "billede":"img/odense-kanute-the-holy.jpg",
+        "id":"knudDenHellige"
     }
 ]

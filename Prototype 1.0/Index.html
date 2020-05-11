@@ -64,8 +64,74 @@
                     }
                 }
                 })};
-                   
-                   
+                
+                
+                function stedPage(sted){
+                    
+                    $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/museums.json", success: function(result){
+                            museums = JSON.parse(result);
+                            var stedP;
+                            $("#ContentBox").empty();
+                            for(var i = 0; i <museums.length;i++){
+                                    if (museums[i].id == $(sted).attr("id")){
+                                        stedP = museums[i];
+                                    }
+                                }   
+                            $("#ContentBox").append(`<div><img src="${stedP.billede}"></div>`)
+                       
+                            }  
+                          });
+                }
+                function emnePage(emne){
+                    
+                    $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/emner.json", success: function(result){
+                            emner = JSON.parse(result);
+                            var emneP;
+                            $("#ContentBox").empty();
+                            for(var i = 0; i <emner.length;i++){
+                                    if (emner[i].id == $(emne).attr("id")){
+                                        emneP = emner[i];
+                                    }
+                                }   
+                            $("#ContentBox").append(`<div><img src="${emneP.billede}"></div>`)
+                       
+                            }  
+                          });
+                }
+                function eventPage(event){
+                    
+                    $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/events.json", success: function(result){
+                            events = JSON.parse(result);
+                            var eventP;
+                            $("#ContentBox").empty();
+                            for(var i = 0; i <events.length;i++){
+                                    if (events[i].id == $(event).attr("id")){
+                                        eventP = events[i];
+                                    }
+                                }   
+                            $("#ContentBox").append(`<div><img src="${eventP.billede}"></div>`)
+                       
+                            }  
+                          });
+                }
+                function værkPage(værk){
+                    
+                    $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/v%C3%A6rker.json", success: function(result){
+                            Værker = JSON.parse(result);
+                            var værkP;
+                            $("#ContentBox").empty();
+                            for(var i = 0; i <Værker.length;i++){
+                                    if (Værker[i].id == $(værk).attr("id")){
+                                        værkP = Værker[i];
+                                    }
+                                }   
+                            $("#ContentBox").append(`<div><img src="${værkP.billede}"></div>`)
+                       
+                            }  
+                          });
+                }
+                
+                
                    
                 
                 
@@ -95,7 +161,26 @@
                 });
         
                 
-                
+                $("#ContentBox").on("click",".stedBlock",function(){;
+                    console.log(this)
+                    stedPage(this);
+                   
+                });
+                $("#ContentBox").on("click",".emneBlock",function(){;
+                    console.log(this)
+                    emnePage(this);
+                   
+                });
+                $("#ContentBox").on("click",".eventBlock",function(){;
+                    console.log(this)
+                    eventPage(this);
+                   
+                });
+                $("#ContentBox").on("click",".værkBlock",function(){;
+                    console.log(this)
+                    værkPage(this);
+                   
+                });
                 
             });
         
