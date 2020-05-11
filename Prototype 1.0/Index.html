@@ -15,6 +15,9 @@
             h2 {
                 font-family: 'Oswald';
             }
+            h3 {
+                font-family: 'Oswald';
+            }
             p {
                 font-family: 'Consolas';
             }
@@ -25,17 +28,16 @@
             
             $("document").ready(function() {
                 
-              
+               
                 
                 function addSteder(){
-                    $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/museums.json", success: function(result){
+                        $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/museums.json", success: function(result){
                         museums = JSON.parse(result)
                          for(var i = 0; i <museums.length;i++){
                              $("#ContentBox").append(`<div class="contentBlock stedBlock" id="${museums[i].id}" style='background-color:rgb(${museums[i].farve});'> <img src="${museums[i].billede}"> <div class="Txt"> <h2>${museums[i].navn} </h2> <p> ${museums[i].beskrivelse} </div> </div>`);
                              
                     }
-                }
-                })};
+                }})};
                 function addEvents(){
                     $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/events.json", success: function(result){
                         events = JSON.parse(result)
@@ -77,7 +79,38 @@
                                         stedP = museums[i];
                                     }
                                 }   
-                            $("#ContentBox").append(`<div><img src="${stedP.billede}"></div>`)
+                            $("#ContentBox").append(`
+                                <div style="background-color:rgb(${stedP.farve}); color:white">
+                                    <img src="${stedP.billede}">
+                                    <h3>Adresse</h3>
+                                    <p></p>
+                                    <h3>Entrepriser</h3>
+                                    <p></p>
+                                    <h3>Generelle Åbningstider</h3>
+                                    <p></p>
+                                    <h3>Website</h3>
+                                    <p></p>
+                                </div>
+                                <div> 
+                                    <h2>${stedP.navn}</h2>
+                                    <p>${stedP.beskrivelse} </p>
+                                </div>`)
+                                
+                                var udstillinger = [];
+                               $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/events.json", success: function(result){
+                                    events = JSON.parse(result)
+                                    for (var i = 0; i < events;i++){
+                                        if (events[i].sted == stedP.id){
+                                            udstillinger.push(events[i])
+                                        }
+                                    }
+                                }}) 
+                                if (udstillinger.length < 0){
+                                       $("#ContentBox").append(`<div id="udstillingboks"><img src="${udstillinger[0].billede}"></div>`)
+                                      }
+                                
+                                      
+                                 
                        
                             }  
                           });
