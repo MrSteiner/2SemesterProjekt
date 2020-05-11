@@ -40,7 +40,7 @@
                     $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/events.json", success: function(result){
                         events = JSON.parse(result)
                          for(var i = 0; i <events.length;i++){
-                        $("#ContentBox").append(`<div class="contentBlock eventBlock" style='background-color:rgb(${events[i].farve});'> <img src="${events[i].billede}"> <h2>${events[i].navn} </h2> <p> ${events[i].beskrivelse}</div>`);
+                        $("#ContentBox").append(`<div class="contentBlock eventBlock" id="${events[i].id}" style='background-color:rgb(${events[i].farve});'> <img src="${events[i].billede}"> <h2>${events[i].navn} </h2> <p> ${events[i].beskrivelse}</div>`);
                              
                     }
                 }
@@ -49,7 +49,7 @@
                     $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/emner.json", success: function(result){
                         emner = JSON.parse(result)
                          for(var i = 0; i <emner.length;i++){
-                        $("#ContentBox").append(`<div class="contentBlock emneBlock" style='background-color:rgb(${emner[i].farve});'> <img src="${emner[i].billede}"> <h2>${emner[i].navn} </h2> <p> ${emner[i].beskrivelse}</div>`);
+                        $("#ContentBox").append(`<div class="contentBlock emneBlock" id="${emner[i].id}" style='background-color:rgb(${emner[i].farve});'> <img src="${emner[i].billede}"> <h2>${emner[i].navn} </h2> <p> ${emner[i].beskrivelse}</div>`);
                              
                     }
                 }
@@ -59,7 +59,7 @@
                     $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/v%C3%A6rker.json", success: function(result){
                         Værker = JSON.parse(result)
                          for(var i = 0; i <Værker.length;i++){
-                        $("#ContentBox").append(`<div class="contentBlock værkBlock" style='background-color:rgb(${Værker[i].farve});'> <img src="${Værker[i].billede}"> <h2>${Værker[i].navn} </h2> <p> ${Værker[i].beskrivelse}</div>`);
+                        $("#ContentBox").append(`<div class="contentBlock værkBlock" id="${Værker[i].id}" style='background-color:rgb(${Værker[i].farve});'> <img src="${Værker[i].billede}"> <h2>${Værker[i].navn} </h2> <p> ${Værker[i].beskrivelse}</div>`);
                              
                     }
                 }
