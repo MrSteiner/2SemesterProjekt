@@ -1,6 +1,10 @@
 .menuButton {
     float:left;
     margin: 20px 20px 20px 20px;
+    cursor: pointer;
+}
+.menuButton:hover{
+    background-color: azure;
 }
 #MenuBar {
     display: flex;
@@ -30,3 +34,4 @@
 .Txt{
     margin: 5px 15px 5px 15px;
 }
+
