@@ -5,6 +5,7 @@
 }
 .menuButton:hover{
     background-color: azure;
+    border-radius: 15px;
 }
 #MenuBar {
     display: flex;
