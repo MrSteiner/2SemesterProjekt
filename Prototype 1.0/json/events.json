@@ -2,69 +2,97 @@
     
     {
         "navn": "Dea Trier Mørch",
-        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
+        "beskrivelseKort":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "77, 157, 224",
         "billede":"img/Dea.png",
         "id":"deaTrier",
         "sted":"brandtsMuseum",
-        "type":["kunst"]
+        "type":["kunst"],
+        "tid":"5.3.2020 - 8.11.2020",
+        "lokation":"Kunstmuseum Brandts",
+        "website":"https://brandts.dk/udstilling/dea-trier-moerch/",
+        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at finibus magna, sit amet porttitor libero. Mauris id ligula at augue dictum pretium non non metus. Nullam ac scelerisque ante. Duis sed mauris quam. Maecenas dictum porta massa, in aliquet ex egestas a. Donec elementum risus quis leo tempus, at interdum sapien luctus. Fusce consequat erat nisl, luctus viverra augue sagittis nec. Donec volutpat leo ut nisl tempor egestas. Etiam pulvinar mollis libero, id feugiat metus efficitur sed. Cras eget quam pulvinar, egestas magna a, ultrices elit. Praesent sit amet nunc purus. Suspendisse faucibus arcu nec ligula eleifend laoreet. Vestibulum tempor libero vitae turpis posuere consectetur. Morbi malesuada, felis vel tristique pulvinar, risus mauris lacinia diam, ut egestas turpis enim et elit. Nulla auctor tempor lacus in suscipit. Donec pharetra mi nec massa finibus malesuada.\nPraesent elementum massa non lectus tempor ornare. Phasellus libero velit, hendrerit id ante a, luctus varius purus. Phasellus consequat dignissim nisi sit amet interdum. Ut sit amet diam laoreet, porttitor nibh quis, luctus metus. Ut sit amet sem in ligula eleifend convallis. Pellentesque eget placerat felis. Vestibulum non nibh orci. Etiam molestie, neque eget congue tempor, nunc sem porta tellus, at viverra felis augue id ligula. Pellentesque aliquet pulvinar odio sit amet vehicula. Sed at nisi in velit ullamcorper cursus. Aenean nisi ex, cursus nec commodo at, tincidunt sit amet sapien. Nam a purus enim. Nulla et nisl ac leo euismod vestibulum a ac metus. In auctor vitae velit ut suscipit. Maecenas porta nec erat ut volutpat."
     
     
     
     },
     {
         "navn":"Et Hjem I Verden",
-        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
+        "beskrivelseKort":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "254,95,85",
         "billede":"img/etHjem.png",
         "id":"etHjemIVerden",
         "sted":"brandtsMuseum",
-        "type":["film","medie"]
+        "type":["film","medie"],
+        "tid":"21.11.2019 - 16.8.2020",
+        "lokation":"Kunstmuseum Brandts",
+        "website":"https://brandts.dk/udstilling/et-hjem-i-verden/",
+        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at finibus magna, sit amet porttitor libero. Mauris id ligula at augue dictum pretium non non metus. Nullam ac scelerisque ante. Duis sed mauris quam. Maecenas dictum porta massa, in aliquet ex egestas a. Donec elementum risus quis leo tempus, at interdum sapien luctus. Fusce consequat erat nisl, luctus viverra augue sagittis nec. Donec volutpat leo ut nisl tempor egestas. Etiam pulvinar mollis libero, id feugiat metus efficitur sed. Cras eget quam pulvinar, egestas magna a, ultrices elit. Praesent sit amet nunc purus. Suspendisse faucibus arcu nec ligula eleifend laoreet. Vestibulum tempor libero vitae turpis posuere consectetur. Morbi malesuada, felis vel tristique pulvinar, risus mauris lacinia diam, ut egestas turpis enim et elit. Nulla auctor tempor lacus in suscipit. Donec pharetra mi nec massa finibus malesuada.\nPraesent elementum massa non lectus tempor ornare. Phasellus libero velit, hendrerit id ante a, luctus varius purus. Phasellus consequat dignissim nisi sit amet interdum. Ut sit amet diam laoreet, porttitor nibh quis, luctus metus. Ut sit amet sem in ligula eleifend convallis. Pellentesque eget placerat felis. Vestibulum non nibh orci. Etiam molestie, neque eget congue tempor, nunc sem porta tellus, at viverra felis augue id ligula. Pellentesque aliquet pulvinar odio sit amet vehicula. Sed at nisi in velit ullamcorper cursus. Aenean nisi ex, cursus nec commodo at, tincidunt sit amet sapien. Nam a purus enim. Nulla et nisl ac leo euismod vestibulum a ac metus. In auctor vitae velit ut suscipit. Maecenas porta nec erat ut volutpat."
     },
     {
         "navn":"Pixar",
-        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
+        "beskrivelseKort":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "6,214,160",
         "billede":"img/Pixar.jpg",
         "id":"pixar",
         "sted":"brandtsMuseum",
-        "type":["film","tegning","medie"]
+        "type":["film","tegning","medie"],
+        "tid":"23.1.2020 - 23.8.2020",
+        "lokation":"Kunstmuseum Brandts",
+        "website":"https://brandts.dk/udstilling/pixar/",
+        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at finibus magna, sit amet porttitor libero. Mauris id ligula at augue dictum pretium non non metus. Nullam ac scelerisque ante. Duis sed mauris quam. Maecenas dictum porta massa, in aliquet ex egestas a. Donec elementum risus quis leo tempus, at interdum sapien luctus. Fusce consequat erat nisl, luctus viverra augue sagittis nec. Donec volutpat leo ut nisl tempor egestas. Etiam pulvinar mollis libero, id feugiat metus efficitur sed. Cras eget quam pulvinar, egestas magna a, ultrices elit. Praesent sit amet nunc purus. Suspendisse faucibus arcu nec ligula eleifend laoreet. Vestibulum tempor libero vitae turpis posuere consectetur. Morbi malesuada, felis vel tristique pulvinar, risus mauris lacinia diam, ut egestas turpis enim et elit. Nulla auctor tempor lacus in suscipit. Donec pharetra mi nec massa finibus malesuada.\nPraesent elementum massa non lectus tempor ornare. Phasellus libero velit, hendrerit id ante a, luctus varius purus. Phasellus consequat dignissim nisi sit amet interdum. Ut sit amet diam laoreet, porttitor nibh quis, luctus metus. Ut sit amet sem in ligula eleifend convallis. Pellentesque eget placerat felis. Vestibulum non nibh orci. Etiam molestie, neque eget congue tempor, nunc sem porta tellus, at viverra felis augue id ligula. Pellentesque aliquet pulvinar odio sit amet vehicula. Sed at nisi in velit ullamcorper cursus. Aenean nisi ex, cursus nec commodo at, tincidunt sit amet sapien. Nam a purus enim. Nulla et nisl ac leo euismod vestibulum a ac metus. In auctor vitae velit ut suscipit. Maecenas porta nec erat ut volutpat."
     },
     {
         "navn":"Sanse Udstilling",
-        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
+        "beskrivelseKort":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "254,93,159",
         "billede":"img/sanse.jpg",
         "id":"sanseUdstilling",
         "sted":"brandtsMuseum",
-        "type":["installation"]
+        "type":["installation"],
+        "tid":"13.10.2018 - 1.1.2021",
+        "lokation":"Kunstmuseum Brandts",
+        "website":"https://brandts.dk/udstilling/sanseudstilling-2/",
+        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at finibus magna, sit amet porttitor libero. Mauris id ligula at augue dictum pretium non non metus. Nullam ac scelerisque ante. Duis sed mauris quam. Maecenas dictum porta massa, in aliquet ex egestas a. Donec elementum risus quis leo tempus, at interdum sapien luctus. Fusce consequat erat nisl, luctus viverra augue sagittis nec. Donec volutpat leo ut nisl tempor egestas. Etiam pulvinar mollis libero, id feugiat metus efficitur sed. Cras eget quam pulvinar, egestas magna a, ultrices elit. Praesent sit amet nunc purus. Suspendisse faucibus arcu nec ligula eleifend laoreet. Vestibulum tempor libero vitae turpis posuere consectetur. Morbi malesuada, felis vel tristique pulvinar, risus mauris lacinia diam, ut egestas turpis enim et elit. Nulla auctor tempor lacus in suscipit. Donec pharetra mi nec massa finibus malesuada.\nPraesent elementum massa non lectus tempor ornare. Phasellus libero velit, hendrerit id ante a, luctus varius purus. Phasellus consequat dignissim nisi sit amet interdum. Ut sit amet diam laoreet, porttitor nibh quis, luctus metus. Ut sit amet sem in ligula eleifend convallis. Pellentesque eget placerat felis. Vestibulum non nibh orci. Etiam molestie, neque eget congue tempor, nunc sem porta tellus, at viverra felis augue id ligula. Pellentesque aliquet pulvinar odio sit amet vehicula. Sed at nisi in velit ullamcorper cursus. Aenean nisi ex, cursus nec commodo at, tincidunt sit amet sapien. Nam a purus enim. Nulla et nisl ac leo euismod vestibulum a ac metus. In auctor vitae velit ut suscipit. Maecenas porta nec erat ut volutpat."
         
     },
     {
         "navn":"Adam Jeppesen",
-        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
+        "beskrivelseKort":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "77, 157, 224",
         "billede":"img/adamJeppesen.jpg",
         "id":"adamJeppesen",
         "sted":"brandtsMuseum",
-        "type":["kunst"]
+        "type":["kunst"],
+        "tid":"23.8.2019 - 31.5.2020",
+        "lokation":"Kunstmuseum Brandts",
+        "website":"https://brandts.dk/udstilling/adam-jeppesen/",
+        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at finibus magna, sit amet porttitor libero. Mauris id ligula at augue dictum pretium non non metus. Nullam ac scelerisque ante. Duis sed mauris quam. Maecenas dictum porta massa, in aliquet ex egestas a. Donec elementum risus quis leo tempus, at interdum sapien luctus. Fusce consequat erat nisl, luctus viverra augue sagittis nec. Donec volutpat leo ut nisl tempor egestas. Etiam pulvinar mollis libero, id feugiat metus efficitur sed. Cras eget quam pulvinar, egestas magna a, ultrices elit. Praesent sit amet nunc purus. Suspendisse faucibus arcu nec ligula eleifend laoreet. Vestibulum tempor libero vitae turpis posuere consectetur. Morbi malesuada, felis vel tristique pulvinar, risus mauris lacinia diam, ut egestas turpis enim et elit. Nulla auctor tempor lacus in suscipit. Donec pharetra mi nec massa finibus malesuada.\nPraesent elementum massa non lectus tempor ornare. Phasellus libero velit, hendrerit id ante a, luctus varius purus. Phasellus consequat dignissim nisi sit amet interdum. Ut sit amet diam laoreet, porttitor nibh quis, luctus metus. Ut sit amet sem in ligula eleifend convallis. Pellentesque eget placerat felis. Vestibulum non nibh orci. Etiam molestie, neque eget congue tempor, nunc sem porta tellus, at viverra felis augue id ligula. Pellentesque aliquet pulvinar odio sit amet vehicula. Sed at nisi in velit ullamcorper cursus. Aenean nisi ex, cursus nec commodo at, tincidunt sit amet sapien. Nam a purus enim. Nulla et nisl ac leo euismod vestibulum a ac metus. In auctor vitae velit ut suscipit. Maecenas porta nec erat ut volutpat."
     },
     {
         "navn":"Hugo Pratt",
-        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
+        "beskrivelseKort":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "254,95,85",
         "billede":"img/hugoPratt.png",
         "id":"hugoPratt",
         "sted":"brandtsMuseum",
-        "type":["tegning","medie"]
+        "type":["tegning","medie"],
+        "tid":"27.9.2019 - 2.8.2020",
+        "lokation":"Kunstmuseum Brandts",
+        "website":"https://brandts.dk/udstilling/hugo-pratt/",
+        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at finibus magna, sit amet porttitor libero. Mauris id ligula at augue dictum pretium non non metus. Nullam ac scelerisque ante. Duis sed mauris quam. Maecenas dictum porta massa, in aliquet ex egestas a. Donec elementum risus quis leo tempus, at interdum sapien luctus. Fusce consequat erat nisl, luctus viverra augue sagittis nec. Donec volutpat leo ut nisl tempor egestas. Etiam pulvinar mollis libero, id feugiat metus efficitur sed. Cras eget quam pulvinar, egestas magna a, ultrices elit. Praesent sit amet nunc purus. Suspendisse faucibus arcu nec ligula eleifend laoreet. Vestibulum tempor libero vitae turpis posuere consectetur. Morbi malesuada, felis vel tristique pulvinar, risus mauris lacinia diam, ut egestas turpis enim et elit. Nulla auctor tempor lacus in suscipit. Donec pharetra mi nec massa finibus malesuada.\nPraesent elementum massa non lectus tempor ornare. Phasellus libero velit, hendrerit id ante a, luctus varius purus. Phasellus consequat dignissim nisi sit amet interdum. Ut sit amet diam laoreet, porttitor nibh quis, luctus metus. Ut sit amet sem in ligula eleifend convallis. Pellentesque eget placerat felis. Vestibulum non nibh orci. Etiam molestie, neque eget congue tempor, nunc sem porta tellus, at viverra felis augue id ligula. Pellentesque aliquet pulvinar odio sit amet vehicula. Sed at nisi in velit ullamcorper cursus. Aenean nisi ex, cursus nec commodo at, tincidunt sit amet sapien. Nam a purus enim. Nulla et nisl ac leo euismod vestibulum a ac metus. In auctor vitae velit ut suscipit. Maecenas porta nec erat ut volutpat."
     },
     {
         "navn":"Værkerne",
-        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
+        "beskrivelseKort":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "6,214,160",
         "billede":"img/værkerne.jpg",
         "id":"værkerne",
         "sted":"brandtsMuseum",
-        "type":["kunst","historie","1800"]
+        "type":["kunst","historie","1800"],
+        "tid":"Permanent",
+        "lokation":"Kunstmuseum Brandts",
+        "website":"https://brandts.dk/udstilling/vaerkerne/",
+        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at finibus magna, sit amet porttitor libero. Mauris id ligula at augue dictum pretium non non metus. Nullam ac scelerisque ante. Duis sed mauris quam. Maecenas dictum porta massa, in aliquet ex egestas a. Donec elementum risus quis leo tempus, at interdum sapien luctus. Fusce consequat erat nisl, luctus viverra augue sagittis nec. Donec volutpat leo ut nisl tempor egestas. Etiam pulvinar mollis libero, id feugiat metus efficitur sed. Cras eget quam pulvinar, egestas magna a, ultrices elit. Praesent sit amet nunc purus. Suspendisse faucibus arcu nec ligula eleifend laoreet. Vestibulum tempor libero vitae turpis posuere consectetur. Morbi malesuada, felis vel tristique pulvinar, risus mauris lacinia diam, ut egestas turpis enim et elit. Nulla auctor tempor lacus in suscipit. Donec pharetra mi nec massa finibus malesuada.\nPraesent elementum massa non lectus tempor ornare. Phasellus libero velit, hendrerit id ante a, luctus varius purus. Phasellus consequat dignissim nisi sit amet interdum. Ut sit amet diam laoreet, porttitor nibh quis, luctus metus. Ut sit amet sem in ligula eleifend convallis. Pellentesque eget placerat felis. Vestibulum non nibh orci. Etiam molestie, neque eget congue tempor, nunc sem porta tellus, at viverra felis augue id ligula. Pellentesque aliquet pulvinar odio sit amet vehicula. Sed at nisi in velit ullamcorper cursus. Aenean nisi ex, cursus nec commodo at, tincidunt sit amet sapien. Nam a purus enim. Nulla et nisl ac leo euismod vestibulum a ac metus. In auctor vitae velit ut suscipit. Maecenas porta nec erat ut volutpat."
     }
 ]

@@ -6,7 +6,7 @@
 }
 
 
-.mySlides1 {
+.mySlides1,.mySlides2 {
   display: none;
     float: left;
 }
@@ -41,7 +41,7 @@
 }
 
 
-.dot1 {
+.dot1, .dot2 {
   cursor: pointer;
   height: 15px;
   width: 15px;
