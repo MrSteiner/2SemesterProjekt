@@ -24,7 +24,18 @@
             p {
                 font-family: 'Consolas';
             }
-        
+            .button {
+                background-color: #bbb;
+                border: none;
+                color: white;
+                padding: 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                border-radius: 12px;
+            }
         </style>
         
         <script>
@@ -60,14 +71,17 @@
                 }
                 })};
                 
+                 
                 function addVærker(){
                     $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/v%C3%A6rker.json", success: function(result){
                         Værker = JSON.parse(result)
-                        ${"#ContentBox"}.append(`
+                        $("#ContentBox").append(`
                         <div id="searchBox">
-                            <button class="button" onclick='værkSearch(.værkBlock)'> Alle </button>
-                            <button class="button" onclick='værkSearch(.statue)'> Statuer </button>
-                            <button class="button" onclick='værkSearch(.maleri)'> Malerier </button>
+                            <button class="button" id="alleButton"> Alle </button>
+                            <button class="button" id="maleriButton"> Malerier </button>
+                            <button class="button" id="statueButton"> Statuer </button>
+                            
+                            
                         </div>`)
                          for(var i = 0; i <Værker.length;i++){
                              $("#ContentBox").append(`<div class="contentBlock værkBlock ${Værker[i].type}" id="${Værker[i].id}" style='background-color:rgb(${Værker[i].farve});'> <img src="${Værker[i].billede}"> <div class="Txt"> <h2>${Værker[i].navn} </h2> <p> ${Værker[i].beskrivelseKort} </div> </div>`);
@@ -77,13 +91,24 @@
                 })};
                 
                 function værkSearch(type){
-                    $(".værkBlock").css("display",none);
-                    $(type).css("display",block);
+                    $(".værkBlock").css("display","none");
+                    $(type).css("display","block");
+                    console.log(type);
                 }
                 
-                
-                
-                
+               $("#ContentBox").on("click","#alleButton", function(){
+                   $(".værkBlock").css("display","block");
+               });
+                $("#ContentBox").on("click","#maleriButton", function(){
+                    $(".værkBlock").css("display","none");
+                   $(".maleri").css("display","block");
+               });
+                $("#ContentBox").on("click","#statueButton", function(){
+                    $(".værkBlock").css("display","none");
+                   $(".statue").css("display","block");
+               });
+                 
+                 
                 
                 function emnePage(emne){
                     
