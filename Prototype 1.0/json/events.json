@@ -6,7 +6,8 @@
         "farve": "77, 157, 224",
         "billede":"img/Dea.png",
         "id":"deaTrier",
-        "sted":"brandtsMuseum"
+        "sted":"brandtsMuseum",
+        "type":["kunst"]
     
     
     
@@ -17,7 +18,8 @@
         "farve": "254,95,85",
         "billede":"img/etHjem.png",
         "id":"etHjemIVerden",
-        "sted":"brandtsMuseum"
+        "sted":"brandtsMuseum",
+        "type":["film","medie"]
     },
     {
         "navn":"Pixar",
@@ -25,14 +27,17 @@
         "farve": "6,214,160",
         "billede":"img/Pixar.jpg",
         "id":"pixar",
-        "sted":"brandtsMuseum"
+        "sted":"brandtsMuseum",
+        "type":["film","tegning","medie"]
     },
     {
         "navn":"Sanse Udstilling",
         "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
         "farve": "254,93,159",
         "billede":"img/sanse.jpg",
-        "id":"sanseUdstilling","sted":"brandtsMuseum"
+        "id":"sanseUdstilling",
+        "sted":"brandtsMuseum",
+        "type":["installation"]
         
     },
     {
@@ -41,7 +46,8 @@
         "farve": "77, 157, 224",
         "billede":"img/adamJeppesen.jpg",
         "id":"adamJeppesen",
-        "sted":"brandtsMuseum"
+        "sted":"brandtsMuseum",
+        "type":["kunst"]
     },
     {
         "navn":"Hugo Pratt",
@@ -49,6 +55,16 @@
         "farve": "254,95,85",
         "billede":"img/hugoPratt.png",
         "id":"hugoPratt",
-        "sted":"brandtsMuseum"
+        "sted":"brandtsMuseum",
+        "type":["tegning","medie"]
+    },
+    {
+        "navn":"Værkerne",
+        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
+        "farve": "6,214,160",
+        "billede":"img/værkerne.jpg",
+        "id":"værkerne",
+        "sted":"brandtsMuseum",
+        "type":["kunst","historie","1800"]
     }
 ]
