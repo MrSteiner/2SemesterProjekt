@@ -109,11 +109,11 @@
                                 
                                $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/events.json", success: function(result){
                                     events = JSON.parse(result)
-                                   
+                                    count = 0;
                                     for (var i = 0; i < events.length;i++){
                                         if (events[i].sted == stedP.id){
                                             udstillinger.push(events[i])
-                                            
+                                            count +=1;
                                             $("#museumSlide").append(`
                                                 <div class="mySlides1 fade eventBlock" id ="${events[i].id}">
                                                     <img src="${events[i].billede}" style="width:100%">
@@ -124,7 +124,7 @@
                                             `);
                                             
                                             $("#museumDot").append(`
-                                                <span class="dot1" onclick="currentSlide(1,${i})"></span>
+                                                <span class="dot1" onclick="currentSlide(1,${count})"></span>
                                             `);
                                             
                                         }
@@ -135,7 +135,45 @@
                                     `)
                                    showSlides(1, slideIndex[0])
                                    
-                                }})  
+                                }})
+                            $("#ContentBox").append(`
+                                <div>
+                                    <h2>Lignende Steder</h2>
+                                </div>
+                                <div class = 'slideBox' id ='relateredeSlide'></div>
+                                <div class = 'dotBox' id='relateredeDot' style='text-align:center'></div>
+                            `);
+                            var count = 0;
+                            var added = []
+                            for(var i = 0; i <museums.length;i++){
+                                tempMuseum = museums[i];
+                                for(var p =0; p < tempMuseum.type.length;p++){
+                                    if (stedP.type.includes(tempMuseum.type[p]) && tempMuseum.id != stedP.id && !added.includes(tempMuseum.id)){
+                                        count += 1;
+                                        added.push(tempMuseum.id);
+                                            $("#relateredeSlide").append(`
+                                                <div class="mySlides2 fade stedBlock" id ="${tempMuseum.id}">
+                                                    <img src="${tempMuseum.billede}" style="width:100%">
+                                                    <div class= "slideTextBox" style="background-color:rgb(${tempMuseum.farve}">
+                                                        <div class="capText" style="color:white">
+                                                            <h3>${tempMuseum.navn}</h3>
+                                                            <p>${tempMuseum.beskrivelse}</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            `);
+                                            
+                                            $("#eventDot").append(`
+                                                <span class="dot2" onclick="currentSlide(1,${count})"></span>
+                                            `);
+                                    }
+                                }
+                                }
+                            $("#relateredeSlide").append(`
+                                    <a class='prev' onclick='plusSlides(2,-1)'>&#10094;</a>
+                                    <a class='next' onclick='plusSlides(2,1)'>&#10095;</a>
+                                    `)
+                                showSlides(2, slideIndex[1])
                             }  
                           });
                 }
@@ -205,22 +243,29 @@
                         
                                 $("#ContentBox").append("<div class = 'slideBox' id ='eventSlide'></div>");
                                 $("#ContentBox").append("<div class = 'dotBox' id='eventDot' style='text-align:center'></div>");
-                                
+                                var count = 0;
+                                var added = [];
                                 for(var i = 0; i <events.length;i++){
                                     tempEvent = events[i];
-                                    for (var i=0; i <tempEvent.type.length){
-                                        if (eventP.type.includes(tempEvent.type[i])){
+                                    
+                                    for (var p=0; p <tempEvent.type.length;p++){
+                                        if (eventP.type.includes(tempEvent.type[p]) && tempEvent.id != eventP.id && !added.includes(tempEvent.id)){
+                                            count += 1;
+                                            added.push(tempEvent.id);
                                             $("#eventSlide").append(`
                                                 <div class="mySlides1 fade eventBlock" id ="${tempEvent.id}">
                                                     <img src="${tempEvent.billede}" style="width:100%">
                                                     <div class= "slideTextBox" style="background-color:rgb(${tempEvent.farve}">
-                                                        <div class="capText">Caption Text</div>
+                                                        <div class="capText" style="color:white">
+                                                            <h3>${tempEvent.navn}</h3>
+                                                            <p>${tempEvent.beskrivelse}</p>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             `);
                                             
                                             $("#eventDot").append(`
-                                                <span class="dot1" onclick="currentSlide(1,${i})"></span>
+                                                <span class="dot1" onclick="currentSlide(1,${count})"></span>
                                             `);
                                         }
                                     }
@@ -251,7 +296,10 @@
                                      <div class="stedBlock" id="${lokation.id}">
                                         <img src="${lokation.billede}" style="width:100%">
                                         <div class= "slideTextBox" style="background-color:rgb(${lokation.farve}">
-                                            <div class="capText">Caption Text</div>
+                                            <div class="capText" style="color:white">
+                                                <h3>${lokation.navn}</h3>
+                                                <p>${lokation.beskrivelse}</p>
+                                            </div>
                                          </div>
                                      </div>
                                     `);    
@@ -293,40 +341,44 @@
                 
                 $("#Steder").on("click",function(){;
                 addSteder();
+                window.scrollTo(0, 0);                                    
                 });
         
                 $("#Events").on("click",function(){;
                 addEvents();
+                window.scrollTo(0, 0); 
                 });
                 
                 $("#Emner").on("click",function(){;
                 addEmner();
+                window.scrollTo(0, 0); 
                 });
                 
                 $("#Værker").on("click",function(){;
                 addVærker();
+                window.scrollTo(0, 0); 
                 });
         
                 
                 $("#ContentBox").on("click",".stedBlock",function(){;
                     console.log(this)
                     stedPage(this);
-                   
+                    window.scrollTo(0, 0); 
                 });
                 $("#ContentBox").on("click",".emneBlock",function(){;
                     console.log(this)
                     emnePage(this);
-                   
+                    window.scrollTo(0, 0); 
                 });
                 $("#ContentBox").on("click",".eventBlock",function(){;
                     console.log(this)
                     eventPage(this);
-                   
+                    window.scrollTo(0, 0); 
                 });
                 $("#ContentBox").on("click",".værkBlock",function(){;
                     console.log(this)
                     værkPage(this);
-                   
+                    window.scrollTo(0, 0); 
                 });
                 
             });

@@ -1,4 +1,4 @@
-var slideIndex = [1];
+var slideIndex = [1,1];
 
 function plusSlides(s,n) {
   showSlides(s, slideIndex[s-1] += n);

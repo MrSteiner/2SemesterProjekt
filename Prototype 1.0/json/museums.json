@@ -49,6 +49,6 @@
         "farve": "254,95,85",
         "billede":"img/kunstMuseum.jpg",
         "id":"fynsKunstmeseum",
-        "type":"kunst"
+        "type":["kunst"]
     }
 ]
