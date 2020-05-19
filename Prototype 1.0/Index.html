@@ -84,6 +84,9 @@
                                 <button class="button" id="alleButton"> Alle </button>
                                 <button class="button" id="maleriButton"> Malerier </button>
                                 <button class="button" id="statueButton"> Statuer </button>
+                                <button class="button" id="tegningButton"> Tegning </button>
+                                <button class="button" id="maskinButton"> Maskiner </button>
+                                <button class="button" id="billedButton"> Billeder </button>
                             </div>
         
                             
@@ -116,6 +119,19 @@
                     $(".værkBlock").css("display","none");
                    $(".statue").css("display","block");
                });
+                 $("#ContentBox").on("click","tegningButton", function(){
+                    $(".værkBlock").css("display","none");
+                   $(".tegning").css("display","block");
+               });
+                  $("#ContentBox").on("click","maskinButton", function(){
+                    $(".værkBlock").css("display","none");
+                   $(".maskine").css("display","block");
+               });
+                $("#ContentBox").on("click","billedeButton", function(){
+                    $(".værkBlock").css("display","none");
+                   $(".billede").css("display","block");
+               });
+                 
                  
                 $("#ContentBox").on("keyup","#searchInput", function search(){
                     var input, filter, txtValue;
