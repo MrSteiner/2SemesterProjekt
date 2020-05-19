@@ -17,20 +17,21 @@
     text-decoration-color: rgb(237,37,78);
 }
 #ContentBox{
+    display: inline-block;
+    margin-left: 5%;
     top: 100px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    left:15%;
-   
+    width: 95%;
 }
 .contentBlock{
+    display: block;
     float:left;
-    margin: 20px 20px 20px 20px;
-    width: 275px;
+    margin: 20px 2% 20px 0;
+    width: 14%;
     height: 750px;
+    text-align: left;
     color: white;
-    position: relative;
+    cursor: pointer;
+    
 }
 .Txt{
     margin: 5px 15px 5px 15px;
