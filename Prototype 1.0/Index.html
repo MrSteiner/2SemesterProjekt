@@ -211,15 +211,24 @@
                     værkPage(this);
                     window.scrollTo(0, 0); 
                 });
+                 
+                
+                var boxHeight = $(".contentBlock").height();
+                var boxWidth = $(".contentBlock").width();
+                $(".contentBlock").mouseover(function(){
+                    $(this).animate({
+                        height: "775px",
+                        width: "15%"
+                    });
+                }).mouseleave(function(){
+                    $(this).animate({
+                        height: boxHeight,
+                        width: boxWidth
+                    });
+                });
                 
             });
             
-            $(".contentBlock").mouseover(function(){
-                $(this).animate({
-                    height: 'toggle',
-                    width: '300x'
-                });
-            });
         
         </script>
         

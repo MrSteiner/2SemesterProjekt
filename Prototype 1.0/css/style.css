@@ -25,17 +25,26 @@
 .contentBlock{
     display: block;
     float:left;
-    margin: 20px 2% 20px 0;
+    margin: 20px 1% 20px 1%;
     width: 14%;
+    min-width: 200px;
     height: 750px;
     text-align: left;
     color: white;
     cursor: pointer;
-    overflow-y: scroll;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
+/*.contentBlock:hover{
+    width: 15%;
+    height: 775px;
+}*/
 .Txt{
     margin: 5px 15px 5px 15px;
 }
+
+/* CSS til scrollbaren, hvis der er overflow */
+
 .contentBlock::-webkit-scrollbar {
     width: 10px;
     background-color: #F5F5F5;
