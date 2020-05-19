@@ -3,6 +3,7 @@
   max-width: 1000px;
   position: relative;
   margin: auto;
+  max-height: 500px;
 }
 
 
@@ -28,16 +29,17 @@
   border-radius: 3px 0 0 3px;
 }
 
+.slideTextBox{
+    width:50%;
+    float: right;
+    height: 500px;
 }
 
 .capText {
   color: #f2f2f2;
   font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
+  height: 100%;
+    padding: 20px;
 }
 
 

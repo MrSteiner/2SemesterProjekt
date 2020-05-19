@@ -10,15 +10,17 @@ function stedPage(sted){
                                     }
                                 }   
                             $("#ContentBox").append(`
-                                <div style="background-color:rgb(${stedP.farve}); color:white">
-                                    <img src="${stedP.billede}">
-                                    <h3>Adresse</h3>
-                                    <p>${stedP.adresse}</p>
-                                    <h3>Entrepriser</h3>
-                                    <p>${stedP.priser}</p>
-                                    <h3>Generelle Åbningstider</h3>
-                                    <p>${stedP.tider}</p>
-                                    <h3><a href="${stedP.website}">Website</a></h3>
+                                <div style="background-color:rgb(${stedP.farve}); color:white" class="headBox">
+                                    <img src="${stedP.billede}" class="headBoxImg">
+                                    <div class="headBoxText">
+                                        <h3>Adresse</h3>
+                                        <p>${stedP.adresse}</p>
+                                        <h3>Entrepriser</h3>
+                                        <p>${stedP.priser}</p>
+                                        <h3>Generelle Åbningstider</h3>
+                                        <p>${stedP.tider}</p>
+                                        <h3><a href="${stedP.website}">Website</a></h3>
+                                    </div>
                                 </div>
                                 <div> 
                                     <h2>${stedP.navn}</h2>
@@ -43,7 +45,7 @@ function stedPage(sted){
                                             count +=1;
                                             $("#museumSlide").append(`
                                                 <div class="mySlides1 fade eventBlock" id ="${events[i].id}">
-                                                    <img src="${events[i].billede}" style="width:100%">
+                                                    <img src="${events[i].billede}" style="width:50%">
                                                     <div class= "slideTextBox" style="background-color:rgb(${events[i].farve}">
                                                         <div class="capText" style="color:white">
                                                             <h3>${events[i].navn}</h3>
@@ -84,7 +86,7 @@ function stedPage(sted){
                                         added.push(tempMuseum.id);
                                             $("#relateredeSlide").append(`
                                                 <div class="mySlides2 fade stedBlock" id ="${tempMuseum.id}">
-                                                    <img src="${tempMuseum.billede}" style="width:100%">
+                                                    <img src="${tempMuseum.billede}" style="width:50%">
                                                     <div class= "slideTextBox" style="background-color:rgb(${tempMuseum.farve}">
                                                         <div class="capText" style="color:white">
                                                             <h3>${tempMuseum.navn}</h3>
@@ -121,13 +123,15 @@ function stedPage(sted){
                                     }
                             }   
                             $("#ContentBox").append(`
-                                <div style="background-color:rgb(${eventP.farve}); color:white">
-                                    <img src="${eventP.billede}">
-                                    <h3>Tidspunkt</h3>
-                                    <p>${eventP.tid}</p>
-                                    <h3>Lokation</h3>
-                                    <p>${eventP.lokation}</p>
-                                    <h3><a href="${eventP.website}">Website</a></h3>
+                                <div style="background-color:rgb(${eventP.farve}); color:white" class="headBox">
+                                    <img src="${eventP.billede}" class="headBoxImg">
+                                    <div class="headBoxText">
+                                        <h3>Tidspunkt</h3>
+                                        <p>${eventP.tid}</p>
+                                        <h3>Lokation</h3>
+                                        <p>${eventP.lokation}</p>
+                                        <h3><a href="${eventP.website}">Website</a></h3>
+                                    </div>
                                     
                                 </div>
                                 <div> 
@@ -153,7 +157,7 @@ function stedPage(sted){
                                             added.push(tempEvent.id);
                                             $("#eventSlide").append(`
                                                 <div class="mySlides1 fade eventBlock" id ="${tempEvent.id}">
-                                                    <img src="${tempEvent.billede}" style="width:100%">
+                                                    <img src="${tempEvent.billede}" style="width:50%" >
                                                     <div class= "slideTextBox" style="background-color:rgb(${tempEvent.farve}">
                                                         <div class="capText" style="color:white">
                                                             <h3>${tempEvent.navn}</h3>
@@ -192,13 +196,13 @@ function stedPage(sted){
                                     }
                                                                                 
                                     $("#ContentBox").append(`
-                                     <div class="stedBlock" id="${lokation.id}">
-                                        <img src="${lokation.billede}" style="width:100%">
-                                        <div class= "slideTextBox" style="background-color:rgb(${lokation.farve}">
-                                            <div class="capText" style="color:white">
+                                     <div class="headBox " id="${lokation.id}" style="color:white">
+                                        <img src="${lokation.billede}" style="width:50%">
+                                        <div class= "headBoxText" style="background-color:rgb(${lokation.farve}">
+                                            
                                                 <h3>${lokation.navn}</h3>
                                                 <p>${lokation.beskrivelseKort}</p>
-                                            </div>
+                                            
                                          </div>
                                      </div>
                                     `);    

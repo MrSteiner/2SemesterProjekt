@@ -71,24 +71,33 @@
                 }
                 })};
                 
+                function search(){
+                    console.log("yipper")
+                }
                  
                 function addVærker(){
                     $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/v%C3%A6rker.json", success: function(result){
                         Værker = JSON.parse(result)
                         $("#ContentBox").append(`
-                        <div id="searchBox">
-                            <button class="button" id="alleButton"> Alle </button>
-                            <button class="button" id="maleriButton"> Malerier </button>
-                            <button class="button" id="statueButton"> Statuer </button>
+                            <div id="searchBox">
+                                <input type="text" id="searchInput"  placeholder="Søg på siden..">
+                                <button class="button" id="alleButton"> Alle </button>
+                                <button class="button" id="maleriButton"> Malerier </button>
+                                <button class="button" id="statueButton"> Statuer </button>
+                            </div>
+        
                             
                             
-                        </div>`)
+                            
+                      `);
                          for(var i = 0; i <Værker.length;i++){
                              $("#ContentBox").append(`<div class="contentBlock værkBlock ${Værker[i].type}" id="${Værker[i].id}" style='background-color:rgb(${Værker[i].farve});'> <img src="${Værker[i].billede}"> <div class="Txt"> <h2>${Værker[i].navn} </h2> <p> ${Værker[i].beskrivelseKort} </div> </div>`);
                              
                     }
                 }
                 })};
+                
+                
                 
                 function værkSearch(type){
                     $(".værkBlock").css("display","none");
@@ -108,7 +117,24 @@
                    $(".statue").css("display","block");
                });
                  
-                 
+                $("#ContentBox").on("keyup","#searchInput", function search(){
+                    var input, filter, txtValue;
+                        input = document.getElementById('searchInput');
+                        filter = input.value.toLowerCase();
+                    boxes = document.getElementsByClassName('contentBlock')
+                    
+                    
+                    for (var i = 0; i < boxes.length;i++){
+                        txtValue = boxes[i].innerText;
+                        if (txtValue.toLowerCase().indexOf(filter) > -1) {
+                            boxes[i].style.display = "";
+                        } else {
+                            boxes[i].style.display = "none";
+                        }
+                    }
+                        
+                }
+               );
                 
                 function emnePage(emne){
                     
