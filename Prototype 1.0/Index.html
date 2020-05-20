@@ -36,6 +36,16 @@
                 font-size: 16px;
                 margin: 4px 2px;
                 border-radius: 12px;
+                font-family: 'Oswald'
+            }
+            .button:hover{
+                background-color: rgb(237,37,78);
+            }
+            .button:focus{
+                background-color: rgb(237,37,78);
+            }
+            .activeButton{
+                background-color: rgb(237,37,78)
             }
         </style>
         
@@ -87,7 +97,7 @@
                         $("#ContentBox").append(`
                             <div id="searchBox">
                                 <input type="text" id="searchInput"  placeholder="Søg på siden..">
-                                <button class="button" id="alleButton"> Alle </button>
+                                <button class="button activeButton" id="alleButton"> Alle </button>
                                 <button class="button" id="maleriButton"> Malerier </button>
                                 <button class="button" id="statueButton"> Statuer </button>
                                 <button class="button" id="tegningButton"> Tegning </button>
@@ -118,31 +128,43 @@
                 
                $("#ContentBox").on("click","#alleButton", function(){
                    $(".værkBlock").css("display","block");
+                   $(".button").removeClass("activeButton");
+                   $("#alleButton").addClass("activeButton");
                    searchClass =("værkBlock");
                });
                 $("#ContentBox").on("click","#maleriButton", function(){
                     $(".værkBlock").css("display","none");
                    $(".maleri").css("display","block");
+                    $(".button").removeClass("activeButton");
+                    $("#maleriButton").addClass("activeButton");
                     searchClass =("maleri");
                });
                 $("#ContentBox").on("click","#statueButton", function(){
                     $(".værkBlock").css("display","none");
                    $(".statue").css("display","block");
+                    $(".button").removeClass("activeButton");
+                   $("#statueButton").addClass("activeButton");
                     searchClass =("statue");
                });
                  $("#ContentBox").on("click","#tegningButton", function(){
                     $(".værkBlock").css("display","none");
                    $(".tegning").css("display","block");
+                     $(".button").removeClass("activeButton");
+                     $("#tegningButton").addClass("activeButton");
                      searchClass =("tegning");
                });
                   $("#ContentBox").on("click","#maskinButton", function(){
                     $(".værkBlock").css("display","none");
                    $(".maskine").css("display","block");
+                      $(".button").removeClass("activeButton");
+                     $("#maskinButton").addClass("activeButton");
                       searchClass =("maskine");
                });
                 $("#ContentBox").on("click","#billedeButton", function(){
                     $(".værkBlock").css("display","none");
                    $(".billede").css("display","block");
+                    $(".button").removeClass("activeButton");
+                    $("#billedeButton").addClass("activeButton");
                     searchClass =("billede");
                });
                  

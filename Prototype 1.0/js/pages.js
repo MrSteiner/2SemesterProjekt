@@ -64,7 +64,7 @@ function stedPage(sted){
                                     <a class='next' onclick='plusSlides(1,1)'>&#10095;</a>
                                     `)
                                    if (count==0){
-                                       $("#museumSlide").empty()
+                                       $("#museumSlide").remove()
                                    }
                                    else {
                                        showSlides(1, slideIndex[0])
@@ -111,7 +111,7 @@ function stedPage(sted){
                                     <a class='next' onclick='plusSlides(2,1)'>&#10095;</a>
                                     `)
                             if (count==0){
-                                       $("#relateredeSlide").empty()
+                                       $("#relateredeSlide").remove()
                                    }
                                    else {
                                        showSlides(2, slideIndex[1])
@@ -187,7 +187,7 @@ function stedPage(sted){
                                     <a class='next' onclick='plusSlides(1,1)'>&#10095;</a>
                                     `)
                                 if (count==0){
-                                    $("#eventSlide").empty()
+                                    $("#eventSlide").remove()
                                 }
                                 else {
                                     showSlides(1, slideIndex[0])
@@ -360,13 +360,13 @@ function værkPage(værk){
                                    
                                    
                                    if(count1 == 0){
-                                       $("#emneSlide").empty();
+                                       $("#emneSlide").remove();
                                    }
                                    else{
                                         showSlides(1, slideIndex[0])
                                    }
                                    if(count2 == 0){
-                                       $("#typeSlide").empty();
+                                       $("#typeSlide").remove();
                                    }
                                    else {
                                        showSlides(2, slideIndex[1])
@@ -408,7 +408,7 @@ function værkPage(værk){
                                     <a class='next' onclick='plusSlides(3,1)'>&#10095;</a>
                                     `)
                                     if(count3 == 0){
-                                       $("#udstillingSlide").empty();
+                                       $("#udstillingSlide").remove();
                                    }
                                    else{
                                        
@@ -453,7 +453,7 @@ function værkPage(værk){
                                     <a class='next' onclick='plusSlides(4,1)'>&#10095;</a>
                                     `)
                                     if(count4 == 0){
-                                       $("#museumSlide").empty();
+                                       $("#museumSlide").remove();
                                    }
                                    else{
                                        
