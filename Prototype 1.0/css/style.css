@@ -23,7 +23,6 @@
     width: 95%;
 }
 .contentBlock{
-    display: block;
     float:left;
     margin: 20px 1% 20px 1%;
     width: 14%;
@@ -34,6 +33,7 @@
     cursor: pointer;
     overflow-y: auto;
     overflow-x: hidden;
+    box-shadow: 2px 3px 10px grey;
 }
 /*.contentBlock:hover{
     width: 15%;

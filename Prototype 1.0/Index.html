@@ -43,6 +43,11 @@
             
             $("document").ready(function() {
                 
+                $(".contentBlock").mouseenter(function(){
+                    $(this).css({ "width": "15%" });
+                }).mouseleave(function(){
+                    $(this).css({ "width": "14%" });
+                });
                
                 
                 function addSteder(){
