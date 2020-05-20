@@ -7,7 +7,7 @@
 }
 
 
-.mySlides1,.mySlides2 {
+.mySlides1,.mySlides2 ,.mySlides3,.mySlides4{
   display: none;
     float: left;
 }
@@ -43,7 +43,7 @@
 }
 
 
-.dot1, .dot2 {
+.dot1, .dot2 , .dot3,.dot4{
   cursor: pointer;
   height: 15px;
   width: 15px;

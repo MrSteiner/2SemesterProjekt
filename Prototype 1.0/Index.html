@@ -92,7 +92,7 @@
                                 <button class="button" id="statueButton"> Statuer </button>
                                 <button class="button" id="tegningButton"> Tegning </button>
                                 <button class="button" id="maskinButton"> Maskiner </button>
-                                <button class="button" id="billedButton"> Billeder </button>
+                                <button class="button" id="billedeButton"> Billeder </button>
                             </div>
         
                             
@@ -114,36 +114,46 @@
                     console.log(type);
                 }
                 
+                var searchClass = "værkBlock";
+                
                $("#ContentBox").on("click","#alleButton", function(){
                    $(".værkBlock").css("display","block");
+                   searchClass =("værkBlock");
                });
                 $("#ContentBox").on("click","#maleriButton", function(){
                     $(".værkBlock").css("display","none");
                    $(".maleri").css("display","block");
+                    searchClass =("maleri");
                });
                 $("#ContentBox").on("click","#statueButton", function(){
                     $(".værkBlock").css("display","none");
                    $(".statue").css("display","block");
+                    searchClass =("statue");
                });
-                 $("#ContentBox").on("click","tegningButton", function(){
+                 $("#ContentBox").on("click","#tegningButton", function(){
                     $(".værkBlock").css("display","none");
                    $(".tegning").css("display","block");
+                     searchClass =("tegning");
                });
-                  $("#ContentBox").on("click","maskinButton", function(){
+                  $("#ContentBox").on("click","#maskinButton", function(){
                     $(".værkBlock").css("display","none");
                    $(".maskine").css("display","block");
+                      searchClass =("maskine");
                });
-                $("#ContentBox").on("click","billedeButton", function(){
+                $("#ContentBox").on("click","#billedeButton", function(){
                     $(".værkBlock").css("display","none");
                    $(".billede").css("display","block");
+                    searchClass =("billede");
                });
                  
                  
-                $("#ContentBox").on("keyup","#searchInput", function search(){
+                
+                $("#ContentBox").on("keyup","#searchInput",function search(){
                     var input, filter, txtValue;
                         input = document.getElementById('searchInput');
                         filter = input.value.toLowerCase();
-                    boxes = document.getElementsByClassName('contentBlock')
+                    boxes = document.getElementsByClassName(searchClass);
+                    //console.log(searchClass);
                     
                     
                     for (var i = 0; i < boxes.length;i++){
@@ -163,7 +173,10 @@
                     $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/emner.json", success: function(result){
                             emner = JSON.parse(result);
                             var emneP;
+                            
                             $("#ContentBox").empty();
+                            
+                    
                             for(var i = 0; i <emner.length;i++){
                                     if (emner[i].id == $(emne).attr("id")){
                                         emneP = emner[i];
@@ -188,22 +201,7 @@
                           });
                 }
                
-                function værkPage(værk){
-                    
-                    $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/v%C3%A6rker.json", success: function(result){
-                            Værker = JSON.parse(result);
-                            var værkP;
-                            $("#ContentBox").empty();
-                            for(var i = 0; i <Værker.length;i++){
-                                    if (Værker[i].id == $(værk).attr("id")){
-                                        værkP = Værker[i];
-                                    }
-                                }   
-                            $("#ContentBox").append(`<div><img src="${værkP.billede}"></div>`)
-                       
-                            }  
-                          });
-                }
+                
                 
                 
                    
