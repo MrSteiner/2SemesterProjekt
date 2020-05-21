@@ -10,6 +10,7 @@
 .mySlides1,.mySlides2 ,.mySlides3,.mySlides4{
   display: none;
     float: left;
+    cursor: pointer;
 }
 
 .prev, .next {

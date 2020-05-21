@@ -53,8 +53,9 @@
             
             $("document").ready(function() {
                 
-                $(".contentBlock").mouseenter(function(){
+                $(".contentBlock").mouseover(function(){
                     $(this).animate({ "width": "15%" });
+                    console.log("Enter");
                 }).mouseleave(function(){
                     $(this).animate({ "width": "14%" });
                 });
