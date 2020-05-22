@@ -1,15 +1,19 @@
 
 .slideBox {
-  max-width: 1000px;
+  width: 1000px;
   position: relative;
   margin: auto;
   height: 600px;
+    overflow-y: hidden;
+
 }
+
 
 
 .mySlides1,.mySlides2 ,.mySlides3,.mySlides4{
   display: none;
     float: left;
+    position: relative;
     cursor: pointer;
 }
 

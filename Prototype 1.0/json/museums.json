@@ -61,7 +61,7 @@
         "farve": "77, 157, 224",
         "billede":"img/andersen.jpg",
         "id":"andersenMuseum",
-        "type":["historie","kunst"],
+        "type":["historie","kunst","andersen"],
         "adresse":"",
         "priser":"",
         "tider":"",
