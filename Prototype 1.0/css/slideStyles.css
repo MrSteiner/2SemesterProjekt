@@ -16,6 +16,9 @@
     position: relative;
     cursor: pointer;
 }
+.headBoxText{
+    height: 300px;
+}
 
 .prev, .next {
   cursor: pointer;
