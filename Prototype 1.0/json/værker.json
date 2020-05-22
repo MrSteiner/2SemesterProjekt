@@ -72,7 +72,7 @@
         "kunstner":"",
         "type":"statue",
         "sted":"",
-        "emner":["historie","middelalder"],
+        "emner":["middelalder"],
         "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at finibus magna, sit amet porttitor libero. Mauris id ligula at augue dictum pretium non non metus. Nullam ac scelerisque ante. Duis sed mauris quam. Maecenas dictum porta massa, in aliquet ex egestas a. Donec elementum risus quis leo tempus, at interdum sapien luctus. Fusce consequat erat nisl, luctus viverra augue sagittis nec. Donec volutpat leo ut nisl tempor egestas. Etiam pulvinar mollis libero, id feugiat metus efficitur sed. Cras eget quam pulvinar, egestas magna a, ultrices elit. Praesent sit amet nunc purus. Suspendisse faucibus arcu nec ligula eleifend laoreet. Vestibulum tempor libero vitae turpis posuere consectetur. Morbi malesuada, felis vel tristique pulvinar, risus mauris lacinia diam, ut egestas turpis enim et elit. Nulla auctor tempor lacus in suscipit. Donec pharetra mi nec massa finibus malesuada.\nPraesent elementum massa non lectus tempor ornare. Phasellus libero velit, hendrerit id ante a, luctus varius purus. Phasellus consequat dignissim nisi sit amet interdum. Ut sit amet diam laoreet, porttitor nibh quis, luctus metus. Ut sit amet sem in ligula eleifend convallis. Pellentesque eget placerat felis. Vestibulum non nibh orci. Etiam molestie, neque eget congue tempor, nunc sem porta tellus, at viverra felis augue id ligula. Pellentesque aliquet pulvinar odio sit amet vehicula. Sed at nisi in velit ullamcorper cursus. Aenean nisi ex, cursus nec commodo at, tincidunt sit amet sapien. Nam a purus enim. Nulla et nisl ac leo euismod vestibulum a ac metus. In auctor vitae velit ut suscipit. Maecenas porta nec erat ut volutpat."
     },
     {
@@ -84,7 +84,7 @@
         "kunstner":"Arne Ungermann",
         "type":"tegning",
         "sted":"grafiskeMuseum",
-        "emner":["politik","medie","tegning"],
+        "emner":["politik","tegning"],
         "info":"Genstandnummer: 01485X094554 <br> Indkomstdato: 29-05-2001 <br> Periode: 1930'erne - Indenfor perioden 'Mellemskrigstiden (1919-1939)' <br> Emne: De enkelte håndværks- eller industrifag <br> Højde: 210 mm <br> Længde: 135 mm",
         "beskrivelse":"Færdigtryk i farver til bogomslag tegnet af Arne Ungermann til 'Klassekampene i Frankrig', af Karl Marx, udgivet af Monde, Socialistisk Bibliotek, bind 5."
     },
@@ -97,7 +97,7 @@
         "kunstner":"Arne Ungermann",
         "type":"tegning",
         "sted":"grafiskeMuseum",
-        "emner":["litteratur","medie","tegning"],
+        "emner":["litteratur","tegning"],
         "info":"Genstandnummer: 01485X094459 <br> Indkomstdato: 29-05-2001 <br>Periode: 1900-tallet - Indenfor perioden 'Nyere tid (1661 - )' <br> Emne: De enkelte håndværks- eller industrifag <br>",
         "beskrivelse":"To færdige tryk og en skitse i farver til bogomslag af Arne Ungermann til 'Den onde lykke' af Tove Ditlevsen. Udgivet af Steen Hasselbalchs Forlag og Gyldendal."
     },
@@ -110,7 +110,7 @@
         "kunstner":"Arne Ungermann",
         "type":"tegning",
         "sted":"grafiskeMuseum",
-        "emner":["litteratur","medie","tegning"],
+        "emner":["litteratur","tegning"],
         "info":"Genstandnummer: 01485X094567 <br> Indkomstdato: 29-05-2001<br>Periode: 1940'erne - Indenfor perioden 'Nyere tid (1661 - )' <br> Emne: De enkelte håndværks- eller industrifag <br>Højde: 205 mm <br> Længde: 160 mm",
         "beskrivelse":"Færdigtryk i farve til bogomslag tegnet af Arne Ungermann til 'Kyra Kyralina' af Panaït Istrati udgivet af Carit Andersens Forlag."
     },
@@ -123,7 +123,7 @@
         "kunstner":"Arne Ungermann",
         "type":"tegning",
         "sted":"grafiskeMuseum",
-        "emner":["medie","tegning"],
+        "emner":["tegning"],
         "info":"Genstandnummer: 01485X094405 <br> Indkomstdato: 29-05-2001 <br>Periode: 1950'erne - Indenfor perioden 'Velfærdssamfundet (1946 -)'<br> Emne: De enkelte håndværks- eller industrifag <br>Højde: 195 mm <br> Længde: 250 mm",
         "beskrivelse":"Illustrationstegninger (2 stk.) af Arne Ungermann, sort tryk, tiltænkt til den selvbiografiske bog 'Man må se det for sig', udgivet af Hanz Reitzels Forlag, København, 1977, trykt på Grafodan Offset. <br>  Tekst til billede: 'Den lykkelige ejer af gadespejlet her med udsigt til H.C. Andersens Hus i Hans Jensens stræde vil i morgen kunne se det som centrum for en hel verdens hyldest til den store digter'. "
        
@@ -137,7 +137,7 @@
         "kunstner":"Arne Ungermann",
         "type":"tegning",
         "sted":"grafiskeMuseum",
-        "emner":["litteratur","medie","tegning"],
+        "emner":["litteratur","tegning"],
         "info":"Genstandnummer: 01485X094462 <br> Indkomstdato: 29-05-2001 <br>Periode: 1970'erne - Indenfor perioden 'Velfærdssamfundet (1946 -)'<br> Emne: De enkelte håndværks- eller industrifag <br>",
         "beskrivelse":"Prøvetryk og skitse i farver til bogomslag af Arne Ungermann til 'Den bedste af alle verdener' af Leif Panduro. Udgivet af Gyldendals Tranebøger, 1974. "
        
@@ -151,7 +151,7 @@
         "kunstner":"Arne Ungermann",
         "type":"tegning",
         "sted":"grafiskeMuseum",
-        "emner":["politik","medie","tegning"],
+        "emner":["politik","tegning"],
         "info":"Genstandnummer: 01485X094500 <br> Indkomstdato: 29-05-2001 <br>Periode: 1940'erne - Indenfor perioden 'Nyere tid (1661 - )'<br> Emne: De enkelte håndværks- eller industrifag <br> Højde: 230 mm <br> Længde: 200 mm",
         "beskrivelse":"Et prøvetryk i farver til bogomslag tegnet af Arne Ungermann til bogen 'Oprøret' af Arturo Barea, udgivet af Schultz, 1946."
        

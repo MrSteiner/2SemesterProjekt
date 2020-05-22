@@ -89,7 +89,7 @@
         "billede":"img/værkerne.jpg",
         "id":"værkerne",
         "sted":"brandtsMuseum",
-        "type":["kunst","historie","1800"],
+        "type":["kunst","1800"],
         "tid":"Permanent",
         "lokation":"Kunstmuseum Brandts",
         "website":"https://brandts.dk/udstilling/vaerkerne/",
