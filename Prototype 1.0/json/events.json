@@ -94,5 +94,83 @@
         "lokation":"Kunstmuseum Brandts",
         "website":"https://brandts.dk/udstilling/vaerkerne/",
         "beskrivelse":"Oplev 250 års kunst set fra Fyn. Vidste du, at Brandts Klædefabrik blev opført på samme tid som mestrene P.S. Krøyer og H.A. Brendekilde malede nogle af deres bedste værker? I slutningen af 1800-tallet var Odense, næst efter København, Danmarks største industriby. <br> Alligevel var det ikke fabrikker og byens store havn, som tidens borgerskab ville se på hjemme i stuerne. Det var tværtimod naturen, helst i dens mest uspolerede og oprindelige form. <br> Træd ind i den nye samlingsfløj og de store danske kunstøjeblikke. Med afsæt i Fyn fortæller udstillingen historien om klædefabrikken og det moderne gennembrud – side om side med nutidens største fotografer og filmskabere."
+    },
+    {
+        "navn":"Byensliv",
+        "beskrivelseKort":"Tag med på en rejse til Odense i vikingetid, middelalder og renæssance. Her bliver du klogere på en epoke, der ændrede vores verdenssyn, og du får historien om en by, som på 600 år udviklede sig fra en lille flække til en international handelsstad. Lad dig betage af de mange unikke genstande og arkæologiske fund fra jorden under byen.",
+        "farve": "254,93,159",
+        "billede":"img/byensLiv.jpg",
+        "id":"byensLiv",
+        "sted":"møntergårdernMuseum",
+        "type":["middelalder","fyn"],
+        "tid":"Permanent",
+        "lokation":"Møntergården",
+        "website":"https://montergarden.dk/faste-udstillinger/udstilling/byens-liv/",
+        "beskrivelse":"Tag med på en rejse til Odense i vikingetid, middelalder og renæssance. Her bliver du klogere på en epoke, der ændrede vores verdenssyn, og du får historien om en by, som på 600 år udviklede sig fra en lille flække til en international handelsstad. Lad dig betage af de mange unikke genstande og arkæologiske fund fra jorden under byen. <br> Udstillingens moderne montrer er placeret i et adelshus fra renæssancen, som selv er en del af historien om Odense. Huset skaber samtidig en stemningsfuld kulisse om udstillingens 11 temaer, godt hjulpet på vej af lyd, lys og projektioner. <br> <h3>Kongemord og vikingeborg</h3> <br> Din rejse gennem udstillingen starter i vikingetiden, hvor kong Harald Blåtand opførte vikingeborgen ”Nonnebakken” ved Odense Å, og den sidste vikingekonge Knud den Hellige blev dræbt i Albani Kirke. Kom helt tæt på et stykke af det gulv, han faldt om på. <br> <h3>Lokum, rustninger og et halshugget skelet </h3> <br> Oplev livet på markedet, i baggården og i hjemmet. Et liv, hvor sygdom, død og straf var hverdagskost, og hvor krige skabte kaos. Men også et liv med hyggelige badstuer, eksotiske varer, dygtige kunstnere og gode håndværkere. <br> <h3>Et ganske særligt fund </h3> <br> Stå ansigt til ansigt med en biskop, hvis kiste og skelet dukkede frem af jorden, der hvor Skt. Albani Kirke lå i 1000-tallet. Den lille trækirke blev udskiftet med flere større domkirker igennem middelalderen, for kirker og klostre fik mere og mere betydning for byen og dens indbyggere."
+    },
+    {
+        "navn":"Fyn – midt i verden",
+        "beskrivelseKort":"Møntergårdens hovedudstilling giver dig et tankevækkende blik på Fyn og Odense gennem årtusinder. Her får du den fynske fortolkning af Danmarkshistorien serveret med en mangfoldighed af genstande og fortællinger om personer og begivenheder, der alle har sat spor i historien og indimellem fået den lille ø på verdenskortet.",
+        "farve": "77, 157, 224",
+        "billede":"img/midtIVerden.jpg",
+        "id":"midtIverden",
+        "sted":"møntergårdernMuseum",
+        "type":["middelalder","fyn","medie"],
+        "tid":"Permanent",
+        "lokation":"Møntergården",
+        "website":"https://montergarden.dk/faste-udstillinger/udstilling/fyn-midt-i-verden/",
+        "beskrivelse":"Museets hovedudstilling giver dig et tankevækkende blik på Fyn og Odense gennem årtusinder. Her får du den fynske fortolkning af Danmarkshistorien serveret med en mangfoldighed af genstande og fortællinger om personer og begivenheder, der alle har sat spor i historien og indimellem fået den lille ø på verdenskortet. <br> Film, lyd og interaktive elementer danner en stemningsfuld ramme om de ca. 2000 genstande og fortællinger i den smukt scenograferede udstilling. Udstillingen strækker sig over to etager og tager dig med gennem 11 vidt forskellige temaer. <br> <h3>Den ældste dansker er fra Fyn</h3> <br> Ved indgangen til udstillingen møder du det ældste kranie, der er fundet i Danmark. Det stammer fra en mand, der druknede i en mose på Fyn for 10.000 år siden. Måske gik han gennem isen en vinterdag? Måske blev han ofret til guderne? Der var engang, hvor tro og ritualer var helt anderledes end i dag. <br> <h3>Fynsk frugt og stærk industri </h3> <br> Frodig muld, mildt klima og en blomstrende frugtavl gav Fyn tilnavnet ”Danmarks have” og satte gang i produktionen af konserves og drikkevarer. Mød Dagmar Andreasen, der skabte Rynkeby Mosteri, og andre industrigiganter som for eksempel motorfabrikant Thomas B. Thrige. Vi kommer heller ikke udenom det store Lindø Skibsværft.<br> <h3>Fyn i verden på godt og ondt </h3> <br> Minderne om den tyske besættelse er stærke, og i Odense var modstandskampen heftig. Det vidner en særlig tysk pistol i udstillingen om. Dens skud skabte optøjer i Odense og fik Hitlers blik til at rette sig mod Danmark. Fyn er en del af den store verden, også når krig og terror hærger. <br> <h3>Kan en gryde fortælle historie? </h3> <br> Tag over hovedet, varme og mad på bordet har været det vigtigste for mennesket gennem årtusinder. Hvad er vigtigst for dig? Udstillingen giver tankestof til din egen nutid og lægger med sine udstillede hverdagsting fra bolig og madlavning op til refleksion og en god snak. <br> <h3>Din udsigt til verden </h3> <br> Titlen på udstillingen, Fyn – midt i verden, er inspireret af en anekdote om en dame fra Drejø, der sagde til præsten: ”Er det ikke fantastisk, at Drejø ligger midt i verden?” Han spurgte, hvad hun mente med det, og hun svarede: ”Jamen, der er jo lige så langt fra Drejø til Ærøskøbing og Rudkøbing og Svendborg, så den må jo ligge midt i verden!”. <br> Dit verdensbillede vil altid være farvet af dit ståsted i livet."
+    },
+    {
+        "navn":"Børnenes Baggård",
+        "beskrivelseKort":"Gå på opdagelse hos snedkermester Severinsen og hans familie og prøv de mange spændende aktiviteter fra dengang, tipoldemor var barn. Børnenes Baggård er et lille, iscenesat bymiljø med lejlighed, baggård og snedkerværksted. Med alle sanser sat i spil kan børnene leve sig ind i historien og opleve, hvordan vilkårene var i Odense for 120 år siden. ",
+        "farve": "254,95,85",
+        "billede":"img/bagGård.jpg",
+        "id":"bagGård",
+        "sted":"møntergårdernMuseum",
+        "type":["1800","fyn"],
+        "tid":"Permanent",
+        "lokation":"Møntergården",
+        "website":"https://montergarden.dk/faste-udstillinger/udstilling/bornenes-baggard/",
+        "beskrivelse":"Gå på opdagelse hos snedkermester Severinsen og hans familie og prøv de mange spændende aktiviteter fra dengang, tipoldemor var barn. Børnenes Baggård er et lille, iscenesat bymiljø med lejlighed, baggård og snedkerværksted. Med alle sanser sat i spil kan børnene leve sig ind i historien og opleve, hvordan vilkårene var i Odense for 120 år siden.  <br> Børnenes Baggård er indrettet i en bygning fra år 1799, og alt er bygget af ægte gamle ting og materialer, som man havde i 1800-tallet. Her må I prøve og røre alt! <br> <h3>Severinsens lejlighed</h3> <br> I Severinsens lejlighed på 1. sal skal I næsten prøve at ligge i sengen eller lege med de hæklede madvarer på det store, sorte brændekomfur. Eller hvad med at tage fin kjole og stråhat på og lege fornemt selskab med det fine kaffestel i stuen? <br> <h3>Brug kræfter på vandpumpen</h3> <br> Brug kræfter på vandpumpen, sig hej til hønsene og gå på stylter på brostenene. I kan også smutte ind i snedkerens lille værksted og bygge på gammeldags manér med rigtig sav, hammer og høvl. Prøv snedkerens hat og forklæde, og leg I er lærlinge.<br> <h3>Snedkerfruen byder på lækre smagsprøver</h3> <br> En weekend i hver måned og i alle skolernes ferier sker der ekstra sjove ting i Børnenes Baggård. Måske er I heldige, at snedkerfruen byder på lækre smagsprøver, eller også kan I udforske fortiden sammen med museets børneformidler. "
+    },
+    {
+        "navn":"Pernille Lykkes Boder",
+        "beskrivelseKort":"Træd ind i to små lejligheder og få historien om nogle af Odenses fattigfolk helt tæt på. Oplev den gamle enke Ane Kathrines lille lejlighed, som den så ud omkring 1940, og bliv klogere på de fattiges livsvilkår i husene i 1600-tallet. Det er som at bevæge sig tilbage i tiden og mærke historien.",
+        "farve": "6,214,160",
+        "billede":"img/pernilleLykke.jpg",
+        "id":"pernilleLykke",
+        "sted":"møntergårdernMuseum",
+        "type":["1600","fyn"],
+        "tid":"Permanent",
+        "lokation":"Møntergården",
+        "website":"https://montergarden.dk/faste-udstillinger/udstilling/pernille-lykkes-boder/",
+        "beskrivelse":"Træd ind i to små lejligheder og få historien om nogle af Odenses fattigfolk helt tæt på. Oplev den gamle enke Ane Kathrines lille lejlighed, som den så ud omkring 1940, og bliv klogere på de fattiges livsvilkår i husene i 1600-tallet. Det er som at bevæge sig tilbage i tiden og mærke historien.  <br> Udstillingen i de små, lave bindingsværkshuse er indrettet med møbler og interiør, der sætter gang i alle sanser.<br> <h3>Perspektiv på byen og livet</h3> <br> IBodernes historie står ikke alene. Utallige stakler hutlede sig gennem tilværelsen mange andre steder i byen, blandt andet i kvarteret omkring H.C. Andersens Hus i nærheden af Møntergården. Det er i dag nogle af byens dyre adresser. Måske sætter besøget dine tanker i gang om både dit og andres liv? <br> <h3>En adelsfrøkens velgørenhed</h3> <br> De huse, du træder ind i, har ligget her, siden de blev opført af adelsfrøken Pernille Lykke i 1617. Ifølge bestemmelsen skulle der i det ene hus være fattigstiftelse og fribolig for ”tre ærlige, trængende Kvindfolk, og to Drenge, faderløse og moderløse “. Det andet hus skulle lejes ud. Indtægten herfra skulle anvendes til brændsel i fattigstiftelsen.<br> <h3>Nips og natpotte</h3> <br> De små huse har rummet utallige skæbner gennem tiden, og de fleste kender vi ikke. Når du træder ind i lejligheden fra 1940, vil du møde en indretning med alt lige fra spillekort og gadespejl til natpotte og gasapparat, som det så ud, da de sidste enker forlod huset.. "
+    },
+    {
+        "navn":"Histotoriet",
+        "beskrivelseKort":"I Histotoriet kan nysgerrige børn gå på opdagelse efter historien sammen med museumsfolkene H A K – Historikeren, Arkæologen og Konservatoren. I de særlige HAK-O-METRE – en blanding af “legemaskiner” og montrer – undersøger I spændende gamle museumsting. Tag kitler på og leg museumsfolk, mens I sammen finder ud af noget om gamle dage.",
+        "farve": "254,93,159",
+        "billede":"img/histororiet.jpg",
+        "id":"histotorier",
+        "sted":"møntergårdernMuseum",
+        "type":["1800","middelalder"],
+        "tid":"Permanent",
+        "lokation":"Møntergården",
+        "website":"https://montergarden.dk/faste-udstillinger/udstilling/histotoriet/",
+        "beskrivelse":"I Histotoriet kan nysgerrige børn gå på opdagelse efter historien sammen med museumsfolkene H A K – Historikeren, Arkæologen og Konservatoren. I de særlige HAK-O-METRE – en blanding af “legemaskiner” og montrer – undersøger I spændende gamle museumsting. Tag kitler på og leg museumsfolk, mens I sammen finder ud af noget om gamle dage. <br> UHistotoriet ligger i et 200 år gammelt hus med skæve døre og små rum. Det hele danner en sjov, labyrintisk ramme om den finurlige og legende scenografi bygget af lækre kvalitetsmaterialer.<br> <h3>Leg og opgaver</h3> <br> Udstillingen er opdelt i små rum med hvert sit tema, og overalt er der opgaver og undersøgelser. Hvad spiste man i stenalderen? Hvad kan man se på et skelet fra middelalderen? Og hvilket værktøj brugte en flintsmed? H A K hjælper med ekstra facts og små spørgsmål. <br> <h3>Worm – den lille museumsorm</h3> <br> I Histotoriet kan de yngste tage på jagt efter den lille museumsorm Worm, der gemmer sig i ti små huller. Han elsker historie og laver små sjove eksperimenter, der passer til de forskellige temaer i udstillingen. Kan I finde ham? <br> <h3>Plads til at tale sammen</h3> <br> I Histotoriet er det bedst, hvis børn og voksne følges ad, for udstillingen lægger op til, at I taler sammen. Vi har derfor udeladt forstyrrende skærme og digitale elementer, og huset har en rar og lys atmosfære uden skræmmende lyde. "
+    },
+    {
+        "navn":"Elverhøj i Børnekulturhuset Fyrtøjet",
+        "beskrivelseKort":"Slip fantasien løs.Lygtemænd. Troldegubber. Elverfolk. Dødningeheste og talende firben. H.C. Andersens eventyr Elverhøj er fuld af magiske væsner. I Børnekulturhuset Fyrtøjets udstilling på Møntergården bliver du selv en del af eventyret.",
+        "farve": "77, 157, 224",
+        "billede":"img/elverHøjjpg",
+        "id":"elverHøj",
+        "sted":"møntergårdernMuseum",
+        "type":["andersen","middelalder"],
+        "tid":"Permanent",
+        "lokation":"Møntergården",
+        "website":"https://montergarden.dk/faste-udstillinger/udstilling/elverhoj-i-bornekulturhuset-fyrtojet/",
+        "beskrivelse":"Slip fantasien løs.Lygtemænd. Troldegubber. Elverfolk. Dødningeheste og talende firben. H.C. Andersens eventyr Elverhøj er fuld af magiske væsner. I Børnekulturhuset Fyrtøjets udstilling på Møntergården bliver du selv en del af eventyret. <br> Træd indenfor i højen. Her er krogede trærødder, ild under gryderne og fjeldhuler at sove i. Her er smukke og sælsomme kostumer. <br> <h3Tag hele huset i brug</h3> <br> H.C. Andersens eventyr Elverhøj holder den gamle Elverkonge fest. Troldgubben fra Norge er inviteret sammen med andre sære gæster fra folketroen. Det ender med bryllup. Fyrtøjets eventyrscenografi og kostumer er inspireret af den fortælling. Velkommen indenfor hos elverne. Du må du røre ved alt. Lytte, lege, forandre. Lade tiden gå i stå og være sammen med dem du holder af i en helt anden verden. <br> <h3>Elverbutikker og brætspil</h3> <br> Elverbutikker lokker, og brætspil står klar. Nogle dage kan du høre eventyret levende fortalt. Andre dage kan du dykke ned i eventyret med dine hænder, når der er workshop i atelieret. Men altid er legen, fordybelsen og den kunstneriske oplevelse i centrum. <br> <h3>For store og små </h3> <br>Fyrtøjet formidler H.C. Andersens eventyrverden til børn fra hele verden: Børnefamilier besøger stedet i weekender og ferier. Skoler og institutioner kommer på hverdage for at deltage i forløb. Sammen med de voksne er de medskabere af historiefortælling og leg, teaterimprovisation og billedkunst. De rejser af sted på fantasiens vinger. Ligesom H.C. Andersen. "
     }
 ]
