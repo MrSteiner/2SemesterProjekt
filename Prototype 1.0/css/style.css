@@ -21,9 +21,12 @@
     margin-left: 5%;
     top: 100px;
     width: 95%;
-    position: relative:
+    position: relative;
+    align-items: center;
+    justify-items: stretch;
 }
 .contentBlock{
+    display:inline-block;
     float:left;
     margin: 20px 1% 20px 1%;
     width: 14%;
@@ -31,15 +34,20 @@
     height: 750px;
     text-align: left;
     color: white;
-    cursor: pointer;
     overflow-y: auto;
     overflow-x: hidden;
     box-shadow: 2px 3px 10px grey;
+    transition: 0.25s ease-out;
 }
-/*.contentBlock:hover{
-    width: 15%;
-    height: 775px;
-}*/
+.contentBlock:hover{
+    display:inline-block;
+    cursor: pointer;
+    float: left;
+    width: 14.3%;
+    height: 760px;
+    transition: 0.25s ease-out;
+    margin-bottom: 10px;
+}
 .Txt{
     margin: 5px 15px 5px 15px;
 }
