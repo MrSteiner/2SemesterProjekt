@@ -39,6 +39,8 @@
     border-radius: 12px;
 }
 .contentBlock:hover{
+    margin-bottom: 10px;
+    margin-right: 0.7%;
     position: relative;
     cursor: pointer;
     float: left;
