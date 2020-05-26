@@ -10,6 +10,8 @@
         "type":"statue",
         "sted":"",
         "emner":["Andersen"],
+        "genstand":"",
+        "info":"Bronzeskulpturen ”Den standhaftige tinsoldat” (1997) står i Overgade 19 i Odense og er skabt af Eiler Madsen. Statuen er af H.C. Andersens eventyr om den lille tinsoldat, der blev støbt som nummer 25 i rækken, og der var desværre ikke nok tin tilbage til den lille soldat, derfor mangler han det ene ben.",
         "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at finibus magna, sit amet porttitor libero. Mauris id ligula at augue dictum pretium non non metus. Nullam ac scelerisque ante. Duis sed mauris quam. Maecenas dictum porta massa, in aliquet ex egestas a. Donec elementum risus quis leo tempus, at interdum sapien luctus. Fusce consequat erat nisl, luctus viverra augue sagittis nec. Donec volutpat leo ut nisl tempor egestas. Etiam pulvinar mollis libero, id feugiat metus efficitur sed. Cras eget quam pulvinar, egestas magna a, ultrices elit. Praesent sit amet nunc purus. Suspendisse faucibus arcu nec ligula eleifend laoreet. Vestibulum tempor libero vitae turpis posuere consectetur. Morbi malesuada, felis vel tristique pulvinar, risus mauris lacinia diam, ut egestas turpis enim et elit. Nulla auctor tempor lacus in suscipit. Donec pharetra mi nec massa finibus malesuada.\nPraesent elementum massa non lectus tempor ornare. Phasellus libero velit, hendrerit id ante a, luctus varius purus. Phasellus consequat dignissim nisi sit amet interdum. Ut sit amet diam laoreet, porttitor nibh quis, luctus metus. Ut sit amet sem in ligula eleifend convallis. Pellentesque eget placerat felis. Vestibulum non nibh orci. Etiam molestie, neque eget congue tempor, nunc sem porta tellus, at viverra felis augue id ligula. Pellentesque aliquet pulvinar odio sit amet vehicula. Sed at nisi in velit ullamcorper cursus. Aenean nisi ex, cursus nec commodo at, tincidunt sit amet sapien. Nam a purus enim. Nulla et nisl ac leo euismod vestibulum a ac metus. In auctor vitae velit ut suscipit. Maecenas porta nec erat ut volutpat."
     
     
@@ -25,11 +27,13 @@
         "type":"statue",
         "sted":"",
         "emner":["Andersen"],
-        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at finibus magna, sit amet porttitor libero. Mauris id ligula at augue dictum pretium non non metus. Nullam ac scelerisque ante. Duis sed mauris quam. Maecenas dictum porta massa, in aliquet ex egestas a. Donec elementum risus quis leo tempus, at interdum sapien luctus. Fusce consequat erat nisl, luctus viverra augue sagittis nec. Donec volutpat leo ut nisl tempor egestas. Etiam pulvinar mollis libero, id feugiat metus efficitur sed. Cras eget quam pulvinar, egestas magna a, ultrices elit. Praesent sit amet nunc purus. Suspendisse faucibus arcu nec ligula eleifend laoreet. Vestibulum tempor libero vitae turpis posuere consectetur. Morbi malesuada, felis vel tristique pulvinar, risus mauris lacinia diam, ut egestas turpis enim et elit. Nulla auctor tempor lacus in suscipit. Donec pharetra mi nec massa finibus malesuada.\nPraesent elementum massa non lectus tempor ornare. Phasellus libero velit, hendrerit id ante a, luctus varius purus. Phasellus consequat dignissim nisi sit amet interdum. Ut sit amet diam laoreet, porttitor nibh quis, luctus metus. Ut sit amet sem in ligula eleifend convallis. Pellentesque eget placerat felis. Vestibulum non nibh orci. Etiam molestie, neque eget congue tempor, nunc sem porta tellus, at viverra felis augue id ligula. Pellentesque aliquet pulvinar odio sit amet vehicula. Sed at nisi in velit ullamcorper cursus. Aenean nisi ex, cursus nec commodo at, tincidunt sit amet sapien. Nam a purus enim. Nulla et nisl ac leo euismod vestibulum a ac metus. In auctor vitae velit ut suscipit. Maecenas porta nec erat ut volutpat."
+        "genstand":"",
+        "info":"Claus Bergs Gade 7 5000 Odense C ",
+        "beskrivelse":"Jens Galschiøts 5 skulpturer af henholdsvis H.C. Andersen på bænken, 3 søjler med den lille havfrue, klodshans og tinsoldaten samt en bænk med fødder til at sidde på."
     },
     {
         "navn":"Kejserens Nye Klæder",
-        "beskrivelseKort":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
+        "beskrivelseKort":"å det lille podium af klinker står kejseren med sin krone på hovedet og et scepter i hånden. Skrædderen holder et spejl op foran ham og ved siden af står en repræsentant for hoffet med foldede hænder. ",
         "farve": "6,214,160",
         "billede":"img/emperors-new-clothes.jpg",
         "id":"kejserensKlæder",
@@ -37,7 +41,9 @@
         "type":"statue",
         "sted":"",
         "emner":["Andersen"],
-        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at finibus magna, sit amet porttitor libero. Mauris id ligula at augue dictum pretium non non metus. Nullam ac scelerisque ante. Duis sed mauris quam. Maecenas dictum porta massa, in aliquet ex egestas a. Donec elementum risus quis leo tempus, at interdum sapien luctus. Fusce consequat erat nisl, luctus viverra augue sagittis nec. Donec volutpat leo ut nisl tempor egestas. Etiam pulvinar mollis libero, id feugiat metus efficitur sed. Cras eget quam pulvinar, egestas magna a, ultrices elit. Praesent sit amet nunc purus. Suspendisse faucibus arcu nec ligula eleifend laoreet. Vestibulum tempor libero vitae turpis posuere consectetur. Morbi malesuada, felis vel tristique pulvinar, risus mauris lacinia diam, ut egestas turpis enim et elit. Nulla auctor tempor lacus in suscipit. Donec pharetra mi nec massa finibus malesuada.\nPraesent elementum massa non lectus tempor ornare. Phasellus libero velit, hendrerit id ante a, luctus varius purus. Phasellus consequat dignissim nisi sit amet interdum. Ut sit amet diam laoreet, porttitor nibh quis, luctus metus. Ut sit amet sem in ligula eleifend convallis. Pellentesque eget placerat felis. Vestibulum non nibh orci. Etiam molestie, neque eget congue tempor, nunc sem porta tellus, at viverra felis augue id ligula. Pellentesque aliquet pulvinar odio sit amet vehicula. Sed at nisi in velit ullamcorper cursus. Aenean nisi ex, cursus nec commodo at, tincidunt sit amet sapien. Nam a purus enim. Nulla et nisl ac leo euismod vestibulum a ac metus. In auctor vitae velit ut suscipit. Maecenas porta nec erat ut volutpat."
+        "genstand":"",
+          "info":"Brandts Passage 10 5000 Odense C",
+        "beskrivelse":"Kejserens nye klæder er lavet af Keld Moseholm. <br> <br> På det lille podium af klinker står kejseren med sin krone på hovedet og et scepter i hånden. Skrædderen holder et spejl op foran ham og ved siden af står en repræsentant for hoffet med foldede hænder. <br> <br> Inspirationen er naturligvis hentet i eventyret om kejseren, der lader sig bedrage af to mænd, der giver sig ud for at være vævere, der kan lave de fineste klæder. Klæderne har den magiske evne, at de er usynlige for mennesker, som er uduelige til deres arbejde. Kejseren er fortvivlet over, at han ikke kan se de dejlige klæder og spiller derfor med på de to mænds bedrageri - lige til den dag, hvor et lille barn på gaden råber at kejseren går nøgen gennem byen."
     },
     {
         "navn":"H.C. Andersen Statuen",
@@ -49,11 +55,13 @@
         "type":"statue",
         "sted":"",
         "emner":["Andersen"],
-        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at finibus magna, sit amet porttitor libero. Mauris id ligula at augue dictum pretium non non metus. Nullam ac scelerisque ante. Duis sed mauris quam. Maecenas dictum porta massa, in aliquet ex egestas a. Donec elementum risus quis leo tempus, at interdum sapien luctus. Fusce consequat erat nisl, luctus viverra augue sagittis nec. Donec volutpat leo ut nisl tempor egestas. Etiam pulvinar mollis libero, id feugiat metus efficitur sed. Cras eget quam pulvinar, egestas magna a, ultrices elit. Praesent sit amet nunc purus. Suspendisse faucibus arcu nec ligula eleifend laoreet. Vestibulum tempor libero vitae turpis posuere consectetur. Morbi malesuada, felis vel tristique pulvinar, risus mauris lacinia diam, ut egestas turpis enim et elit. Nulla auctor tempor lacus in suscipit. Donec pharetra mi nec massa finibus malesuada.\nPraesent elementum massa non lectus tempor ornare. Phasellus libero velit, hendrerit id ante a, luctus varius purus. Phasellus consequat dignissim nisi sit amet interdum. Ut sit amet diam laoreet, porttitor nibh quis, luctus metus. Ut sit amet sem in ligula eleifend convallis. Pellentesque eget placerat felis. Vestibulum non nibh orci. Etiam molestie, neque eget congue tempor, nunc sem porta tellus, at viverra felis augue id ligula. Pellentesque aliquet pulvinar odio sit amet vehicula. Sed at nisi in velit ullamcorper cursus. Aenean nisi ex, cursus nec commodo at, tincidunt sit amet sapien. Nam a purus enim. Nulla et nisl ac leo euismod vestibulum a ac metus. In auctor vitae velit ut suscipit. Maecenas porta nec erat ut volutpat."
+        "info":"Eventyrhaven 5000 Odense C",
+        "genstand":"",
+        "beskrivelse":"Bronzestatuen af H. C. Andersen blev afsløret den 19. juni 1888 i Kongens Have. I 1905 blev den flyttet til Gråbrødre Plads, og i 1949 fik den sin nuværende placering i Eventyrhaven. <br> <br> Kunstneren Louis Hasselriis opholdt sig - med korte afbrydelser - i Rom fra 1869 til sin død. Her var han også, da man udskrev en stor konkurrence om et monument over eventyrdigteren i København. Konkurrencen blev vundet af August Saabye, men Hasselriis arbejdede ufortrødent videre, og kæmpede for at få sit værk placeret i Odense. Det blev det i 1888, hvor byens borgere havde samlet nok penge ind til anskaffelsen af statuen. <br> <br>Statuen fik dog aldrig helt den udformning, som kunstneren oprindelig havde tænkt sig og den berømte skuespillerinde Johanne Louise Heiberg syntes, at bagsiden så lidt kedelig ud. Så lod Hasselriis digterens overfrakke hvile over den ene skulder, så den brød den lange rygflade."
     },
     {
         "navn":"Papirbåden",
-        "beskrivelseKort":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus feugiat magna id odio fermentum, sed blandit nisi malesuada. Phasellus rhoncus, eros ac malesuada vestibulum, ante elit sagittis mauris, ut ullamcorper nisl ligula a felis. Suspendisse sollicitudin commodo velit, id tristique neque finibus accumsan.",
+        "beskrivelseKort":"Papirbåden er lavet af billedhuggeren Erik Heide. <br> <br> Papirbåden, der sejler midt på åen i Eventyrhaven, får ofte de forbipasserende til at tænke på H.C. Andersens eventyr om 'Den Standhaftige Tinsoldat'.",
         "farve": "77, 157, 224",
         "billede":"img/taet-pa-papirbaden.jpg",
         "id":"papirbåden",
@@ -61,7 +69,9 @@
         "type":"statue",
         "sted":"",
         "emner":["Andersen"],
-        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at finibus magna, sit amet porttitor libero. Mauris id ligula at augue dictum pretium non non metus. Nullam ac scelerisque ante. Duis sed mauris quam. Maecenas dictum porta massa, in aliquet ex egestas a. Donec elementum risus quis leo tempus, at interdum sapien luctus. Fusce consequat erat nisl, luctus viverra augue sagittis nec. Donec volutpat leo ut nisl tempor egestas. Etiam pulvinar mollis libero, id feugiat metus efficitur sed. Cras eget quam pulvinar, egestas magna a, ultrices elit. Praesent sit amet nunc purus. Suspendisse faucibus arcu nec ligula eleifend laoreet. Vestibulum tempor libero vitae turpis posuere consectetur. Morbi malesuada, felis vel tristique pulvinar, risus mauris lacinia diam, ut egestas turpis enim et elit. Nulla auctor tempor lacus in suscipit. Donec pharetra mi nec massa finibus malesuada.\nPraesent elementum massa non lectus tempor ornare. Phasellus libero velit, hendrerit id ante a, luctus varius purus. Phasellus consequat dignissim nisi sit amet interdum. Ut sit amet diam laoreet, porttitor nibh quis, luctus metus. Ut sit amet sem in ligula eleifend convallis. Pellentesque eget placerat felis. Vestibulum non nibh orci. Etiam molestie, neque eget congue tempor, nunc sem porta tellus, at viverra felis augue id ligula. Pellentesque aliquet pulvinar odio sit amet vehicula. Sed at nisi in velit ullamcorper cursus. Aenean nisi ex, cursus nec commodo at, tincidunt sit amet sapien. Nam a purus enim. Nulla et nisl ac leo euismod vestibulum a ac metus. In auctor vitae velit ut suscipit. Maecenas porta nec erat ut volutpat."
+        "genstand":"",
+        "info":"Eventyrhaven 5000 Odense C",
+        "beskrivelse":"Papirbåden er lavet af billedhuggeren Erik Heide. <br> <br> Papirbåden, der sejler midt på åen i Eventyrhaven, får ofte de forbipasserende til at tænke på H.C. Andersens eventyr om 'Den Standhaftige Tinsoldat'. I fortællingen om den et-benede tinsoldat, der er ulykkeligt forelsket i en danserinde, finder to drenge nemlig tinsoldaten på gaden: 'Se du! Der ligger en tinsoldat. Han skal ud at sejle.' Og så gjorde de en båd af en avis, satte tinsoldaten midt i den, og nu sejlede han ned af rendestenen,' skrev Andersen og sendte den stakkels tinsoldat til søs. <br> <br>Papirbåden er trods sit navn af mat rustfrit stål."
     },
     {
         "navn":"Knud den Hellige",
@@ -73,7 +83,9 @@
         "type":"statue",
         "sted":"",
         "emner":["middelalder"],
-        "beskrivelse":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras at finibus magna, sit amet porttitor libero. Mauris id ligula at augue dictum pretium non non metus. Nullam ac scelerisque ante. Duis sed mauris quam. Maecenas dictum porta massa, in aliquet ex egestas a. Donec elementum risus quis leo tempus, at interdum sapien luctus. Fusce consequat erat nisl, luctus viverra augue sagittis nec. Donec volutpat leo ut nisl tempor egestas. Etiam pulvinar mollis libero, id feugiat metus efficitur sed. Cras eget quam pulvinar, egestas magna a, ultrices elit. Praesent sit amet nunc purus. Suspendisse faucibus arcu nec ligula eleifend laoreet. Vestibulum tempor libero vitae turpis posuere consectetur. Morbi malesuada, felis vel tristique pulvinar, risus mauris lacinia diam, ut egestas turpis enim et elit. Nulla auctor tempor lacus in suscipit. Donec pharetra mi nec massa finibus malesuada.\nPraesent elementum massa non lectus tempor ornare. Phasellus libero velit, hendrerit id ante a, luctus varius purus. Phasellus consequat dignissim nisi sit amet interdum. Ut sit amet diam laoreet, porttitor nibh quis, luctus metus. Ut sit amet sem in ligula eleifend convallis. Pellentesque eget placerat felis. Vestibulum non nibh orci. Etiam molestie, neque eget congue tempor, nunc sem porta tellus, at viverra felis augue id ligula. Pellentesque aliquet pulvinar odio sit amet vehicula. Sed at nisi in velit ullamcorper cursus. Aenean nisi ex, cursus nec commodo at, tincidunt sit amet sapien. Nam a purus enim. Nulla et nisl ac leo euismod vestibulum a ac metus. In auctor vitae velit ut suscipit. Maecenas porta nec erat ut volutpat."
+        "genstand":"",
+        "info":"I. Vilh. Werners Plads 11 5000 Odense C",
+        "beskrivelse":"Kong Knud fik stor betydning for Odense, mens han var regent fra 1080-1086. Ælnoths Krønike skrevet i Odense ca. år 1120 fortæller historien om kongen, der under en urolig periode i landets historie blev dræbt af oprørske bønder i Odense den 10. juli 1086 i Skt. Albani Kirke. <br> <br>Efter sin død blev Kong Knud kåret til helgen og fik navnet Knud den Hellige. Hans jordiske rester er opbevaret i krypten i domkirken, der også bærer hans navn: Skt. Knuds Kirke. <br> <br>Bronzestatuen er placeret, hvor den daværende Skt. Albani Kirke lå. Statuens sokkel bærer følgende indskrift: <br> <br> KNUD SATTES DETTE MINDE <br>DEN KNUD DER HER BLEV DRÆBT <br> DANMARKS KONGE 1080 1086 <br>MYRDET MODTOG HAN MARTYRKRONE <br> KNUD DEN HELLIGE. <br> <br>Statuen er skænket af Fyens Disconto Kasse i anledning af bankens 100-års jubilæum i 1946."
     },
     {
         "navn":"Færdigtryk til bogomslag, mand med rød fane",
@@ -85,6 +97,7 @@
         "type":"tegning",
         "sted":"grafiskeMuseum",
         "emner":["politik","tegning"],
+        "genstand":"01485X094554",
         "info":"Genstandnummer: 01485X094554 <br> Indkomstdato: 29-05-2001 <br> Periode: 1930'erne - Indenfor perioden 'Mellemskrigstiden (1919-1939)' <br> Emne: De enkelte håndværks- eller industrifag <br> Højde: 210 mm <br> Længde: 135 mm",
         "beskrivelse":"Færdigtryk i farver til bogomslag tegnet af Arne Ungermann til 'Klassekampene i Frankrig', af Karl Marx, udgivet af Monde, Socialistisk Bibliotek, bind 5."
     },
@@ -98,6 +111,7 @@
         "type":"tegning",
         "sted":"grafiskeMuseum",
         "emner":["litteratur","tegning"],
+        "genstand":"01485X094459 ",
         "info":"Genstandnummer: 01485X094459 <br> Indkomstdato: 29-05-2001 <br>Periode: 1900-tallet - Indenfor perioden 'Nyere tid (1661 - )' <br> Emne: De enkelte håndværks- eller industrifag <br>",
         "beskrivelse":"To færdige tryk og en skitse i farver til bogomslag af Arne Ungermann til 'Den onde lykke' af Tove Ditlevsen. Udgivet af Steen Hasselbalchs Forlag og Gyldendal."
     },
@@ -111,6 +125,7 @@
         "type":"tegning",
         "sted":"grafiskeMuseum",
         "emner":["litteratur","tegning"],
+        "genstand":"01485X094567 ",
         "info":"Genstandnummer: 01485X094567 <br> Indkomstdato: 29-05-2001<br>Periode: 1940'erne - Indenfor perioden 'Nyere tid (1661 - )' <br> Emne: De enkelte håndværks- eller industrifag <br>Højde: 205 mm <br> Længde: 160 mm",
         "beskrivelse":"Færdigtryk i farve til bogomslag tegnet af Arne Ungermann til 'Kyra Kyralina' af Panaït Istrati udgivet af Carit Andersens Forlag."
     },
@@ -124,6 +139,7 @@
         "type":"tegning",
         "sted":"grafiskeMuseum",
         "emner":["tegning"],
+        "genstand":"01485X094405  ",
         "info":"Genstandnummer: 01485X094405 <br> Indkomstdato: 29-05-2001 <br>Periode: 1950'erne - Indenfor perioden 'Velfærdssamfundet (1946 -)'<br> Emne: De enkelte håndværks- eller industrifag <br>Højde: 195 mm <br> Længde: 250 mm",
         "beskrivelse":"Illustrationstegninger (2 stk.) af Arne Ungermann, sort tryk, tiltænkt til den selvbiografiske bog 'Man må se det for sig', udgivet af Hanz Reitzels Forlag, København, 1977, trykt på Grafodan Offset. <br>  Tekst til billede: 'Den lykkelige ejer af gadespejlet her med udsigt til H.C. Andersens Hus i Hans Jensens stræde vil i morgen kunne se det som centrum for en hel verdens hyldest til den store digter'. "
        
@@ -138,6 +154,7 @@
         "type":"tegning",
         "sted":"grafiskeMuseum",
         "emner":["litteratur","tegning"],
+         "genstand":"01485X094462 ",
         "info":"Genstandnummer: 01485X094462 <br> Indkomstdato: 29-05-2001 <br>Periode: 1970'erne - Indenfor perioden 'Velfærdssamfundet (1946 -)'<br> Emne: De enkelte håndværks- eller industrifag <br>",
         "beskrivelse":"Prøvetryk og skitse i farver til bogomslag af Arne Ungermann til 'Den bedste af alle verdener' af Leif Panduro. Udgivet af Gyldendals Tranebøger, 1974. "
        
@@ -152,6 +169,7 @@
         "type":"tegning",
         "sted":"grafiskeMuseum",
         "emner":["politik","tegning"],
+        "genstand":"01485X094500 ",
         "info":"Genstandnummer: 01485X094500 <br> Indkomstdato: 29-05-2001 <br>Periode: 1940'erne - Indenfor perioden 'Nyere tid (1661 - )'<br> Emne: De enkelte håndværks- eller industrifag <br> Højde: 230 mm <br> Længde: 200 mm",
         "beskrivelse":"Et prøvetryk i farver til bogomslag tegnet af Arne Ungermann til bogen 'Oprøret' af Arturo Barea, udgivet af Schultz, 1946."
        
@@ -166,6 +184,7 @@
         "type":"maskine",
         "sted":"grafiskeMuseum",
         "emner":["teknologi"],
+        "genstand":"01009X040013  ",
         "info":"Genstandnummer: 01009X040013 <br> Indkomstdato: 25-01-1993 <br>Periode: 1960'erne - Indenfor perioden 'Velfærdssamfundet (1946 -)'<br> Emne: De enkelte håndværks- eller industrifag <br> Materiale: Metal<br>Højde: 830 mm <br> Længde: 730 mm",
         "beskrivelse":"Adresseringsmaskine, mærket 'Adressograph-Multigraph Ltd.' <br> Består af: <br> 1) Skriveenhed br.: 620; l: 370;h.:250; Graphotype class 350. serinr: 971772; gråt hammerlakeret metalapparat. <br> 2) Trykkeenheden: br.:840; l.: 750; h.:1300; gråt hammerlakeret bord og maskine. Maskinen er tilsluttet el og har fodpedal. <br> Trykkeenheden: model: 1650 Q; serie nr. 0004560 <br> 3) Lille apparat bestående af en træklods, på hvilken en skinne er monteret; til skinnen er spændt en håndbetjent valse. br.:300 l.: 165; h.: 110. Til afretning af trykplader."
        
@@ -180,6 +199,7 @@
         "type":"maskine",
         "sted":"grafiskeMuseum",
         "emner":["teknologi"],
+        "genstand":"01419X082312  ",
         "info":"Genstandnummer: 01419X082312 <br> Indkomstdato: 16-09-1996 <br>Periode: 1900-tallet - Indenfor perioden 'Nyere tid (1661 - )'<br> Emne: De enkelte håndværks- eller industrifag <br> Materiale: Metal/træ/støbejern<br> Længde: Metalbord",
         "beskrivelse":"Adressografen har en metalcylinder med riller, hvori bogstaver isættes for at skabe den ønskede tekst. Farvevalse (dårlig stand) til indfarvning af bogstaverne er monteret foran. Metalcylinderen drejes rundt med en metalarm m. træhåndtag. Forsynet med tæller, som sidder på maskinen. På maskinens sider påsættes 2 papirbakker i metal forsynet med justerbare sidestyr. Den separate papirbanerulleholder af metal på rund fod (ø 180mm) med fabrikantnavn har sørget for papirtilførslen. Derudover er der et sort metalbeslag med en rød gummivalse isat (288x70 mm) og metalskrue i enden, hvis funktion er ukendt. Træpladen med Adressografen er lagt løst på bordfundamentet, som er fremstillet af runde jernrør med svajede ben. På den sorte træplade en hvid etiket med teksten: Adressograf anvendt til flytningen fra Bispetoften."
        
@@ -194,6 +214,7 @@
         "type":"maskine",
         "sted":"grafiskeMuseum",
         "emner":["teknologi","medie"],
+        "genstand":"01790X000003 ",
         "info":"Genstandnummer: 01790X000003 <br> Indkomstdato: 04-12-2009 <br>Periode: 1980'erne - Indenfor perioden 'Velfærdssamfundet (1946 -)'<br> Emne: De enkelte håndværks- eller industrifag <br> Højde: 370 mm<br> Bredde: 320 mm",
         "beskrivelse":"Computeren er af typen Tandy 1400 LT Personal computer. Den ser ud til at være fra 1980´erne. Det er en mindre Laptop computer, med to diskettedrev og uden harddisk. Man brugte det ene drev til DOS disketten mens man i det andet drev indsatte en diskette med de data eller program man ønskede at køre. Øjvind Kyrø købte maskinen i 1988 for 14.000 kr, umiddelbart før han udstationeredes i Chile som Latinamerikakorrespondent. Denne model er en af de første rigtige IBM-PC kompatible laptops med LCD display. Computerens overside har oprindelig været hvid eller lys beige men er nu gullig i kuløren. Undersiden er sort. Maskinen er udformet således at den i sammenklappet tilstand ligner noget nær en rejseskrivemaskine. Skærmen kan vippes op og under den er tastaturet og de to diskettedrev. Der er på computeren mange forskellige mærker påklæbet. Blandt andet er der på siden et klistermærke fra Patricio Aylwin's præsidentkampagne med sloganet 'gana la gente!' under dette mærke er et andet hvor noget af teksten kan skelnes. Navnet der er på mærket kan læses som Büchi, hvor under der står noget tekst. Det er sandsynligvis i relation til Hernán Büchi der tjente som finansminister fra 1985-1989 under Pinochets regime. På oversiden af kabinettet er et mærke fra United Airlines, der refererer til den rejsende: Kyroe samt destinationen Rio de Janeiro. På undersiden er der 3 mærker. Det ene har teksten 'Volvere y sere milliones', det næste 'Entel directo. Llanadas internacionales' og det sidste er et adressemærke fra LanChile med håndskrevet navn og adresse: O. Kyrø, Manizales 1930, Vitacura, Santiago, Chile, tlf.: (+56-2) 2244885. Standen på computeren er rimelig brugt, blandt andet har der været en klap bagpå computeren der beskyttede alle stik fra computeren, den er imidlertid knækket af. Der er også slået et hjørne af computerens sorte underdels kabinet. Computeren er også meget beskidt. <br> 1) Computerens Adapter (Tandy AC/DC Adapter) er en sort boks med tilsluttet ledning. <br>  2) Disketten der sidder i venstre diskettedrev er en grå diskette mærket med 3M, 3.5, DS double side 135 TPI. På oversiden af disketten er der med tusch skrevet 'Spil' med håndskift. <br> 3) Disketten der sidder i venstre diskettedrev er blå. På den er en mærkat hvorpå der er trykt Data Disc, Xerox. Der er også en label hvor der med skrivemaskine er skrevet 'Kaptajn Kaper i Kattegat. Skriv: Kaper'. Det antages at disketten indeholder det danske computerspil Kaptajn Kaper i Kattegat fra 1980'erne. Spillet blev udviklet af Peter Ole Frederiksen. kilde: http://da.wikipedia.org/wiki/Kaptajn_Kaper_i_Kattegat"
        
@@ -208,6 +229,7 @@
         "type":"maskine",
         "sted":"grafiskeMuseum",
         "emner":["teknologi","medie"],
+        "genstand":"00018X119069  ",
         "info":"Genstandnummer: 00018X119069 <br> Datering: 1972-1975 <br>Periode:1970'erne - Indenfor perioden 'Velfærdssamfundet (1946 -)'<br> Emne: De enkelte håndværks- eller industrifag <br> Højde: 12 cm<br> Bredde: 60 cm",
         "beskrivelse":"Sort kuffert med metallåse og kanter af mærket: 'Echolac' <br> Indeholder: <br> Båndoptager til kassettebånd. Båndoptagerens fabrikat ukendt. <br> 2 genopladelige batterier (mærket: Sonnenschein, dryfit PC. Made in Germany. Mål: 13,2x6x3,4cm) Kasseret pga. begyndende gennemtæring. <br> 2 transformatorer egnet til vekselstrøm. (mærket: Telefunken. Made in Western Germany.) <br> 10 sikringer til transformatorerne. (af glas) <br> 1 batteriopladningsstation.<br> 1 kabel fjernbetjeningsaggregat <br> 1 øresnegl <br> 16 kassettebånd, alle tomme. På enkelte skimtes tekst af tidligere indhold. <br> ca. 50 A4 ark med ETM Programformular A, B og C alle forfattet på svensk. Men alle er uudfyldte. <br> 2 A4 ark hvor der er noteret datoer for fuld opladning af batterierne: fra 17-05-1972 til 21-08-1975 <br> Formodet anvendelse: <br> Interview uden for radiostudier. <br> Oprindelelse: <br> Båndoptageren og papirarkene har et logo formet som et 'm' efterfulgt af en pil. <br> Kufferten blev fundet under gennemgang af magasin (musikkælderen). <br> Stand: God. Virkede under test. Dog er de to batterier kasseret pga tæring."
        
@@ -222,6 +244,7 @@
         "type":"maskine",
         "sted":"grafiskeMuseum",
         "emner":["teknologi","medie"],
+        "genstand":"00356X014193  ",
         "info":"Genstandnummer: 00356X014193 <br> Periode:1900 - Indenfor perioden 'Industritid (1849-1913)'<br> Emne: De enkelte håndværks- eller industrifag <br> Materiale: Støbejern <br> Højde: 410 mm<br> Bredde: 310 mm <br> Længde: 330 mm",
         "beskrivelse":"Kopipresse til kopiering af breve. <br> - Et brev blev skrevet med specielt blæk. Derefter blev det lagt med den beskrevne side mod et blad i en særlig kopibog, der blev lagt ind i kopipressen. Under hårdt pres blev der derefter overført en kopi i bogen. Brevet kunne sendes. <br> Proveniens: Har været anvendt på kontoret i Brandts Klædefabrik, Odense, indtil ca. 1915, hvor skrivemaskiner med tilhørende carbonpapir overflødiggjorde apparatet."
        
@@ -236,6 +259,7 @@
         "type":"maskine",
         "sted":"grafiskeMuseum",
         "emner":["teknologi","medie"],
+        "genstand":"01808X000001 ",
         "info":"Genstandnummer: 01808X000001 <br> Indkomstdato: 20-09-2010 <br>Periode:1950'erne - Indenfor perioden 'Velfærdssamfundet (1946 -)'<br> Emne: De enkelte håndværks- eller industrifag <br> Materiale: Plast,træ <br> Højde: 160 mm<br> Bredde: 295 mm <br> Længde: 405 mm",
         "beskrivelse":"'Slæbbar', bærbar båndoptager og båndafspiller til spolebånd, magnetmedier. <br> Trækabinet med aftageligt gråt plastlåg. <br> Kan bæres i udtrækkeligt håndtag. <br> Produceret af Philips. <br> Ingen tydeliggørelse af produktnavn. <br> Ingen synlige patent nr. <br> Med strømkabel 220v i lille aflukke. <br> 6 udgange til højtalere, mikrofon m.v."
        
@@ -250,6 +274,7 @@
         "type":"maskine",
         "sted":"grafiskeMuseum",
         "emner":["teknologi","medie"],
+        "genstand": "01299X093869",
         "info":"Genstandnummer: 01299X093869 <br> Indkomstdato: 25-09-1990 <br> Emne: De enkelte håndværks- eller industrifag <br> Materiale: Metal og Træ. <br> Længde: 140x325x320",
         "beskrivelse":"Rejseskrivemaskine af mærket Royal Portable. Håndbetjent. Skrivemaskinen er indsat i en sort trækasse med håndtag så den kan transporteres på den måde. <br> Proveniens: Den 25. september 1990 hentede DGM/DP hele Chr. Bøndings pressebureau, skænket af enken Ingeborg Bønding. Chr. Bønding, der døde den 4. august 1990, var født den 25. januar 1917 i Jeebjerg, Salling. Han blev uddannet på Skive Folkeblad som journalist. Bøndings boede i Ringe fra 1958, samtidig med at Chr. Bønding havde en lejlighed i Stampesgade, København. Ingeborg og Chr. Bønding var flyttet til København i 1944 først hos nogle venner, senere i Stampesgade <br> Det afhentede materiale, lå i pressebureauets arkiv, der var indrettet i en sidefløj til forhuset i Ringe. Sidefløjen havde karakter af et udhus, og arkivet var ca. 1,4 m bredt og 5,2 m. langt med hylder til ringbind på begge sider. For enden af rummet var placeret et lille havebord med en rejseskrivemaskine (bord og skrivemaskine samt kontorsager er også taget med til DGM/DP). Det egentlige kontor og arbejdsrum befandt sig inde i beboelsen. Loftet og to andre udhuse i samme fløj som arkivet med ved siden af dette, var fyldt med materiale: tryk, stereotypier, bøger m.m, indsamlet gennem et helt liv. Dette materiale blev sorteret og kun et repræsentativt udvalg taget med. <br> Bønding blev ansat på Skive Venstreblad den 1. maj 1935, Viborg Venstreblad den 1. maj 1938, og den 1. oktober 1940 blev han ansat på Landsforeningen Til Arbejdsløshedens Bekæmpelse. Den 1. juli 1944 blev han ansat på Nordisk Pressebureau & Telegrafagentur og fra 1. oktober 1978 udgjorde han tillige Kristeligt Dagblads Fynsredaktion. Han oprettede desuden bureauerne: Moralsk Oprustnings Nyhedstjeneste, Kristeligt Pressebureau m. fl. <br> Han startede Dansk Samvirkes Nyhedstjeneste fra danske i udlandet den 1. december 1949, Norræna Frettastofan a Islandi (Islands Telegrambureau) 1960 og Grundejernes Pressetjeneste (GPT) den 1. maj 1964. Medstifter af Fyns Kassette-TV A/S 1973 og ophavsretsselskabet Kassette-Data A/S 1974. Tilknyttet det nordiske tv-selskab Scand-Video's Danmarks readaktion."
        

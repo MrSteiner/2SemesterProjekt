@@ -117,7 +117,54 @@ function stedPage(sted){
                                        showSlides(2, slideIndex[1])
                                    }
                                 
-                            }  
+                        
+                        $("#ContentBox").append("<div class = 'slideBox' id ='værkSlide'></div>");
+                                $("#ContentBox").append("<div class = 'dotBox' id='værkDot' style='text-align:center'></div>");
+                                $("#værkSlide").append("<h2> Værker på instititutionen </h2>");
+                                
+                               $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/værker.json", success: function(result){
+                                    værker = JSON.parse(result)
+                                    count = 0;
+                                    for (var i = 0; i < events.length;i++){
+                                        if (værker[i].sted == stedP.id){
+                                            udstillinger.push(events[i])
+                                            count +=1;
+                                            $("#værkSlide").append(`
+                                                <div class="mySlides3 fade eventBlock" id ="${værker[i].id}">
+                                                    <img src="${værker[i].billede}" style="width:50%">
+                                                    <div class= "slideTextBox" style="background-color:rgb(${værker[i].farve}">
+                                                        <div class="capText" style="color:white">
+                                                            <h3>${værker[i].navn}</h3>
+                                                            <p>${værker[i].beskrivelseKort} </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            `);
+                                            
+                                            $("#værkDot").append(`
+                                                <span class="dot3" onclick="currentSlide(3,${count})"></span>
+                                            `);
+                                            
+                                        }
+                                    }
+                                   $("#værkSlide").append(`
+                                    <a class='prev' onclick='plusSlides(3,-1)'>&#10094;</a>
+                                    <a class='next' onclick='plusSlides(3,1)'>&#10095;</a>
+                                    `)
+                                   if (count==0){
+                                       $("#værkSlide").remove()
+                                   }
+                                   else {
+                                       showSlides(3, slideIndex[2])
+                                   }
+                                   
+                                   
+                                }})
+                        
+                            } 
+                            
+                            
+                            
                           });
                 }
 
@@ -466,5 +513,191 @@ function værkPage(værk){
                              
                                 
                                 
+                          });
+                }
+function emnePage(emne){
+                    
+                    $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/emner.json", success: function(result){
+                            emner = JSON.parse(result);
+                            var emneP;
+                            
+                            $("#ContentBox").empty();
+                            
+                    
+                            for(var i = 0; i <emner.length;i++){
+                                    if (emner[i].id == $(emne).attr("id")){
+                                        emneP = emner[i];
+                                    }
+                                }   
+                             $("#ContentBox").append(`
+                                <div style="background-color:rgb(${emneP.farve}); color:white" class="headBox">
+                                    <img src="${emneP.billede}" class="headBoxImg">
+                                    <div class="headBoxText" style="font-size:20px">
+                                        <h2>${emneP.navn}</h2>
+                                    <p>${emneP.beskrivelse} </p>
+                                    </div>
+                                </div>
+                                
+                                `)
+                        
+                            $("#ContentBox").append("<div class = 'slideBox' id ='museumSlide'></div>");
+                                $("#ContentBox").append("<div class = 'dotBox' id='museumDot' style='text-align:center'></div>");
+                                $("#museumSlide").append(`
+                                       <h2>Relaterede Institutioner</h2>
+                                    `)
+                                
+                                $("#ContentBox").append("<div class = 'slideBox' id ='udstillingSlide'></div>");
+                                $("#ContentBox").append("<div class = 'dotBox' id='udstillingDot' style='text-align:center'></div>");
+                                $("#udstillingSlide").append(`
+                                       <h2>Udstillinger med relaterede emner</h2>
+                                    `)
+                        
+                                $("#ContentBox").append("<div class = 'slideBox' id ='værkSlide'></div>");
+                                $("#ContentBox").append("<div class = 'dotBox' id='værkDot' style='text-align:center'></div>");
+                                $("#værkSlide").append(`
+                                        <h2> Relaterede Værker </h2>
+                                    `)
+                        
+                                $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/museums.json", success: function(result){
+                                    museums = JSON.parse(result)
+                                    count = 0;
+                                    added =[];
+                                    
+                                    for (var i = 0; i < museums.length;i++){
+                                        var tempMuseum = museums[i]
+                                        
+                                        for (var p = 0; p < tempMuseum.type.length;p++){
+                                            
+                                            if ((emneP.id.includes(tempMuseum.type[p]) ) &&  !added.includes(tempMuseum.id) ){
+                                                count += 1;
+                                                added.push(tempMuseum.id);
+                                                console.log(tempMuseum)
+                                                 $("#museumSlide").append(`
+                                                <div class="mySlides1 fade stedBlock" id ="${tempMuseum.id}">
+                                                    <img src="${tempMuseum.billede}" style="width:50%">
+                                                    <div class= "slideTextBox" style="background-color:rgb(${tempMuseum.farve}">
+                                                        <div class="capText" style="color:white">
+                                                            <h3>${tempMuseum.navn}</h3>
+                                                            <p>${tempMuseum.beskrivelseKort} </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            `);
+                                                $("#museumDot").append(`
+                                                <span class="dot1" onclick="currentSlide(1,${count})"></span>
+                                            `);
+                                            }
+                                        }
+                                    }
+                                    $("#museumSlide").append(`
+                                    <a class='prev' onclick='plusSlides(1,-1)'>&#10094;</a>
+                                    <a class='next' onclick='plusSlides(1,1)'>&#10095;</a>
+                                    `)
+                                    if(count == 0){
+                                       $("#museumSlide").remove();
+                                        $("#museumDot").remove();
+                                   }
+                                   else{
+                                       
+                                        showSlides(1, slideIndex[0])
+                                   }
+                                    
+                                }})
+                                $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/events.json", success: function(result){
+                                    events = JSON.parse(result)
+                                    count2 = 0;
+                                    added =[];
+                                    
+                                    for (var i = 0; i < events.length;i++){
+                                        var tempEvent = events[i]
+                                        
+                                        for (var p = 0; p < tempEvent.type.length;p++){
+                                            if ((emneP.id.includes(tempEvent.type[p])  ) &&  !added.includes(tempEvent.id) ){
+                                                count2 += 1;
+                                                added.push(tempEvent.id);
+                                                
+                                                 $("#udstillingSlide").append(`
+                                                <div class="mySlides2 fade eventBlock" id ="${tempEvent.id}">
+                                                    <img src="${tempEvent.billede}" style="width:50%">
+                                                    <div class= "slideTextBox" style="background-color:rgb(${tempEvent.farve}">
+                                                        <div class="capText" style="color:white">
+                                                            <h3>${tempEvent.navn}</h3>
+                                                            <p>${tempEvent.beskrivelseKort} </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            `);
+                                                $("#udstillingDot").append(`
+                                                <span class="dot2" onclick="currentSlide(2,${count2})"></span>
+                                            `);
+                                            }
+                                        }
+                                    }
+                                    $("#udstillingSlide").append(`
+                                    <a class='prev' onclick='plusSlides(2,-1)'>&#10094;</a>
+                                    <a class='next' onclick='plusSlides(2,1)'>&#10095;</a>
+                                    `)
+                                    if(count2 == 0){
+                                       $("#udstillingSlide").remove();
+                                        $("#udstillingDot").remove();
+                                   }
+                                   else{
+                                       
+                                        showSlides(2, slideIndex[1])
+                                   }
+                                    
+                                }})
+                                $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/værker.json", success: function(result){
+                                    Værker = JSON.parse(result)
+                                    count3 = 0;
+                                    added =[];
+                                    for (var i = 0; i < Værker.length;i++){
+                                        var tempVærk = Værker[i]
+                                        
+                                        for (var p = 0; p < tempVærk.emner.length;p++){
+                                            if (emneP.id.includes(tempVærk.emner[p]) && !added.includes(tempVærk.id) ){
+                                                count3 += 1;
+                                                added.push(tempVærk.id);
+                                                
+                                                 $("#værkSlide").append(`
+                                                <div class="mySlides3 fade værkBlock" id ="${tempVærk.id}">
+                                                    <img src="${tempVærk.billede}" style="width:50%">
+                                                    <div class= "slideTextBox" style="background-color:rgb(${tempVærk.farve}">
+                                                        <div class="capText" style="color:white">
+                                                            <h3>${tempVærk.navn}</h3>
+                                                            <p>${tempVærk.beskrivelseKort} </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            `);
+                                            
+                                            $("#værkDot").append(`
+                                                <span class="dot3" onclick="currentSlide(3,${count3})"></span>
+                                            `);
+                                            } 
+                                        }
+                                  
+                                        
+                                        
+                                    }
+                                   $("#værkSlide").append(`
+                                    <a class='prev' onclick='plusSlides(3,-1)'>&#10094;</a>
+                                    <a class='next' onclick='plusSlides(3,1)'>&#10095;</a>
+                                    `)
+                                  
+                                   
+                                   
+                                   if(count3 == 0){
+                                       $("#værkSlide").remove();
+                                       $("#værkDot").remove();
+                                   }
+                                   else{
+                                        showSlides(3, slideIndex[2])
+                                   }
+
+                                   
+                                }})
+                       
+                            }  
                           });
                 }
