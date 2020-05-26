@@ -125,10 +125,13 @@ function stedPage(sted){
                                $.ajax({url:"https://raw.githubusercontent.com/MrSteiner/2SemesterProjekt/master/Prototype%201.0/json/værker.json", success: function(result){
                                     værker = JSON.parse(result)
                                     count = 0;
-                                    for (var i = 0; i < events.length;i++){
+                                  
+                                    for (var i = 0; i < værker.length;i++){
+                                        
                                         if (værker[i].sted == stedP.id){
                                             udstillinger.push(events[i])
                                             count +=1;
+                                            
                                             $("#værkSlide").append(`
                                                 <div class="mySlides3 fade eventBlock" id ="${værker[i].id}">
                                                     <img src="${værker[i].billede}" style="width:50%">
@@ -151,6 +154,7 @@ function stedPage(sted){
                                     <a class='prev' onclick='plusSlides(3,-1)'>&#10094;</a>
                                     <a class='next' onclick='plusSlides(3,1)'>&#10095;</a>
                                     `)
+                                   
                                    if (count==0){
                                        $("#værkSlide").remove()
                                    }

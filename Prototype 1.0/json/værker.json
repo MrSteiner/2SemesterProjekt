@@ -276,7 +276,62 @@
         "emner":["teknologi","medie"],
         "genstand": "01299X093869",
         "info":"Genstandnummer: 01299X093869 <br> Indkomstdato: 25-09-1990 <br> Emne: De enkelte håndværks- eller industrifag <br> Materiale: Metal og Træ. <br> Længde: 140x325x320",
-        "beskrivelse":"Rejseskrivemaskine af mærket Royal Portable. Håndbetjent. Skrivemaskinen er indsat i en sort trækasse med håndtag så den kan transporteres på den måde. <br> Proveniens: Den 25. september 1990 hentede DGM/DP hele Chr. Bøndings pressebureau, skænket af enken Ingeborg Bønding. Chr. Bønding, der døde den 4. august 1990, var født den 25. januar 1917 i Jeebjerg, Salling. Han blev uddannet på Skive Folkeblad som journalist. Bøndings boede i Ringe fra 1958, samtidig med at Chr. Bønding havde en lejlighed i Stampesgade, København. Ingeborg og Chr. Bønding var flyttet til København i 1944 først hos nogle venner, senere i Stampesgade <br> Det afhentede materiale, lå i pressebureauets arkiv, der var indrettet i en sidefløj til forhuset i Ringe. Sidefløjen havde karakter af et udhus, og arkivet var ca. 1,4 m bredt og 5,2 m. langt med hylder til ringbind på begge sider. For enden af rummet var placeret et lille havebord med en rejseskrivemaskine (bord og skrivemaskine samt kontorsager er også taget med til DGM/DP). Det egentlige kontor og arbejdsrum befandt sig inde i beboelsen. Loftet og to andre udhuse i samme fløj som arkivet med ved siden af dette, var fyldt med materiale: tryk, stereotypier, bøger m.m, indsamlet gennem et helt liv. Dette materiale blev sorteret og kun et repræsentativt udvalg taget med. <br> Bønding blev ansat på Skive Venstreblad den 1. maj 1935, Viborg Venstreblad den 1. maj 1938, og den 1. oktober 1940 blev han ansat på Landsforeningen Til Arbejdsløshedens Bekæmpelse. Den 1. juli 1944 blev han ansat på Nordisk Pressebureau & Telegrafagentur og fra 1. oktober 1978 udgjorde han tillige Kristeligt Dagblads Fynsredaktion. Han oprettede desuden bureauerne: Moralsk Oprustnings Nyhedstjeneste, Kristeligt Pressebureau m. fl. <br> Han startede Dansk Samvirkes Nyhedstjeneste fra danske i udlandet den 1. december 1949, Norræna Frettastofan a Islandi (Islands Telegrambureau) 1960 og Grundejernes Pressetjeneste (GPT) den 1. maj 1964. Medstifter af Fyns Kassette-TV A/S 1973 og ophavsretsselskabet Kassette-Data A/S 1974. Tilknyttet det nordiske tv-selskab Scand-Video's Danmarks readaktion."
-       
+        "beskrivelse":"Rejseskrivemaskine af mærket Royal Portable. Håndbetjent. Skrivemaskinen er indsat i en sort trækasse med håndtag så den kan transporteres på den måde. <br> Proveniens: Den 25. september 1990 hentede DGM/DP hele Chr. Bøndings pressebureau, skænket af enken Ingeborg Bønding. Chr. Bønding, der døde den 4. august 1990, var født den 25. januar 1917 i Jeebjerg, Salling. Han blev uddannet på Skive Folkeblad som journalist. Bøndings boede i Ringe fra 1958, samtidig med at Chr. Bønding havde en lejlighed i Stampesgade, København. Ingeborg og Chr. Bønding var flyttet til København i 1944 først hos nogle venner, senere i Stampesgade <br> Det afhentede materiale, lå i pressebureauets arkiv, der var indrettet i en sidefløj til forhuset i Ringe. Sidefløjen havde karakter af et udhus, og arkivet var ca. 1,4 m bredt og 5,2 m. langt med hylder til ringbind på begge sider. For enden af rummet var placeret et lille havebord med en rejseskrivemaskine (bord og skrivemaskine samt kontorsager er også taget med til DGM/DP). Det egentlige kontor og arbejdsrum befandt sig inde i beboelsen. Loftet og to andre udhuse i samme fløj som arkivet med ved siden af dette, var fyldt med materiale: tryk, stereotypier, bøger m.m, indsamlet gennem et helt liv. Dette materiale blev sorteret og kun et repræsentativt udvalg taget med. <br> Bønding blev ansat på Skive Venstreblad den 1. maj 1935, Viborg Venstreblad den 1. maj 1938, og den 1. oktober 1940 blev han ansat på Landsforeningen Til Arbejdsløshedens Bekæmpelse. Den 1. juli 1944 blev han ansat på Nordisk Pressebureau & Telegrafagentur og fra 1. oktober 1978 udgjorde han tillige Kristeligt Dagblads Fynsredaktion. Han oprettede desuden bureauerne: Moralsk Oprustnings Nyhedstjeneste, Kristeligt Pressebureau m. fl. <br> Han startede Dansk Samvirkes Nyhedstjeneste fra danske i udlandet den 1. december 1949, Norræna Frettastofan a Islandi (Islands Telegrambureau) 1960 og Grundejernes Pressetjeneste (GPT) den 1. maj 1964. Medstifter af Fyns Kassette-TV A/S 1973 og ophavsretsselskabet Kassette-Data A/S 1974. Tilknyttet det nordiske tv-selskab Scand-Video's Danmarks readaktion."  
+    },
+    {
+        "navn":"Papirklip af H.C. Andersen - Mand med Gul Bluse",
+        "beskrivelseKort":"Mand med gule bluse, hvide bukser og strømper - gule støvler med sporer - på hænderne. Jakken er lukket med en tegnet syning. Ansigtet er tegnet. Om halsen en uldsnor til at hænge juletræspynten op - denne uldsnor ligner et halstørklæde.",
+        "farve": "254,93,159",
+        "billede":"img/gulBluse.jpg",
+        "id":"gulBluse",
+        "kunstner":"H.C. Andersen",
+        "type":"tegning",
+        "sted":"andersenMuseum",
+        "emner":["tegning","andersen"],
+        "genstand": "	HCA/A-1116-C",
+        "info":"Inv. Nr. HCA/A-1116-C<br> Billed Nr. 17287 <br> Størrelse: 23,5 x 16 cm",
+        "beskrivelse":"Mand med gule bluse, hvide bukser og strømper - gule støvler med sporer - på hænderne. Jakken er lukket med en tegnet syning. Ansigtet er tegnet. Om halsen en uldsnor til at hænge juletræspynten op - denne uldsnor ligner et halstørklæde."  
+    },
+    {
+        "navn":"Papirklip af H.C. Andersen - Danserinde",
+        "beskrivelseKort":"Papirklip i oxyderet (sølv?)papir. Danserinde.",
+        "farve": "77, 157, 224",
+        "billede":"img/danserinde.jpg",
+        "id":"danserinde",
+        "kunstner":"H.C. Andersen",
+        "type":"tegning",
+        "sted":"andersenMuseum",
+        "emner":["tegning","andersen"],
+        "genstand": "",
+        "info":"Billed Nr. 16872 ",
+        "beskrivelse":"Papirklip i oxyderet (sølv?)papir. Danserinde."  
+    },
+    {
+        "navn":"Papirklip af H.C. Andersen - Pjerrot",
+        "beskrivelseKort":"	Pjerrot, træ, engel, danserinde",
+        "farve": "254,95,85",
+        "billede":"img/pjerrot.jpg",
+        "id":"pjerrot",
+        "kunstner":"H.C. Andersen",
+        "type":"tegning",
+        "sted":"andersenMuseum",
+        "emner":["tegning","andersen"],
+        "genstand": "	HCA/XXIII-B-7",
+        "info":"Inv. Nr. HCA/XXIII-B-7<br> 50476<br>",
+        "beskrivelse":"	Pjerrot, træ, engel, danserinde"  
+    },
+    {
+        "navn":"Papirklip af H.C. Andersen - Lille Mand",
+        "beskrivelseKort":"		Lille mand med tynde arme og ben - og en stor hat.",
+        "farve": "6,214,160",
+        "billede":"img/lilleMand.jpg",
+        "id":"lileMand",
+        "kunstner":"H.C. Andersen",
+        "type":"tegning",
+        "sted":"andersenMuseum",
+        "emner":["tegning","andersen"],
+        "genstand": "HCA/A-1116-I",
+        "info":"Inv. Nr. HCA/A-1116-I<br> Billed Nr. 16849 <br> Størrelse: 5 x 3,8 cm",
+        "beskrivelse":"	Lille mand med tynde arme og ben - og en stor hat."  
     }
 ]
