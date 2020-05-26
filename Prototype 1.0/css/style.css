@@ -24,6 +24,7 @@
     position: relative;
 }
 .contentBlock{
+    position: relative;
     float:left;
     margin: 20px 1% 20px 1%;
     width: 14%;
@@ -35,14 +36,15 @@
     overflow-x: hidden;
     box-shadow: 2px 3px 10px grey;
     transition: 0.25s ease-out;
+    border-radius: 12px;
 }
 .contentBlock:hover{
+    position: relative;
     cursor: pointer;
     float: left;
     width: 14.3%;
     height: 760px;
     transition: 0.25s ease-out;
-    margin-bottom: 10px;
 }
 .Txt{
     margin: 5px 15px 5px 15px;
