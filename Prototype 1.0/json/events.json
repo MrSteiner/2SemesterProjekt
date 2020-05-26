@@ -289,5 +289,31 @@
         "lokation":"Danmarks Jernbane Museum",
         "website":"https://www.jernbanemuseet.dk/udstillinger/nye-tider/",
         "beskrivelse":"Nye tider! tager udgangspunkt i årene før og efter, jernbanen København-Roskilde åbnede i 1847, og er opbygget omkring ODIN, den køreklare kopi af Danmarks første lokomotiv i fuld størrelse. I dag er jernbanen en selvfølge, men sådan var det ikke oprindeligt. I udstillingen kan du se, hvordan jernbanen blev opfattet de første år, og hvorfor lokomotivet ODIN var med til at revolutionere den danske trafik. <br> <br> Roskildebanen, der var kongerigets første, gik mellem Roskilde og København, og fra begyndelsen blev det nye transportmiddel flittigt brugt. Den 32 km lange strækning kunne nu tilbagelægges langt hurtigere – mod tidligere flere timer, nu 53 minutter – og pludselig kunne mange flere end før komme til Roskilde eller København. Banen skulle vise sig at være yderst betydningsfuld for Danmarks udvikling. Nu kunne der også sendes store mængder gods og levende dyr. <br> <br> ODIN og jernbanens indtog i Danmark er en af de vigtigste markører for fremkomsten af det, vi vil betegne som det moderne Danmark, hvis ikke ligefrem symbolet på det moderne gennembrud i Danmark. Da jernbanen mod slutningen af århundredet var udbredt til hele landet, havde den på afgørende vis bidraget til industrialiseringen i Danmark.Nyd de mange detaljer på ODIN, og bliv klogere på udviklingen af det moderne samfund."
+    },
+    {
+        "navn":"Tidens samling permanent udstilling!",
+        "beskrivelseKort":"I Tidens Samlings permanente udstilling kan du tage på en rejse tilbage i tiden til årtierne i det 20. århundrede. Ni stuer indrettet med originale møbler, nips og andre dagligdagsting fra årtierne, giver en helt særlig mulighed for at gå på opdagelse i tiden fra 1900-1990’erne.",
+        "farve": "6,214,160",
+        "billede":"img/tidensUdstilling.jpg",
+        "id":"tidensUdstilling",
+        "sted":"tidensSamling",
+        "type":["1900"],
+        "tid":"Permanent",
+        "lokation":"Tidens Samling",
+        "website":"https://tidenssamling.dk/udstillinger/den-permanente-udstilling/",
+        "beskrivelse":"I Tidens Samlings permanente udstilling kan du tage på en rejse tilbage i tiden til årtierne i det 20. århundrede. Ni stuer indrettet med originale møbler, nips og andre dagligdagsting fra årtierne, giver en helt særlig mulighed for at gå på opdagelse i tiden fra 1900-1990’erne. Her er du velkommen til at sætte dig i møblerne, åbne skufferne, bladre i bladene indsnuse den særlige atmosfære på helt tæt hold. På bordene ligger tidens aviser, blade og poesibøger sammen med håndarbejde og andet til tidsfordriv, der – sammen med bl.a. moden og teknologiers ændring – åbner øjnene for den rivende udvikling der er sket i det 20. århundrede. Stuerne åbner for fortællinger, erindringer og minder. De mange detaljer sætter erindringer i gang hos de ældre, mens børn og unge kan lære nyt om tidligere generationers dagligdag."
+    },
+    {
+        "navn":"'KLÆDT PÅ TIL ALLE TIDERS SELSKAB' - MED LASSE SPANGENBERG",
+        "beskrivelseKort":"Museet Tidens Samlings nye særudstilling 2020 ‘Klædt på til alle tiders selskab’ giver et indblik i selskabslivets mode fra starten af det 20. århundrede og frem til i dag. Sammen med et udpluk af et helt århundredes dansk selskabsmode præsenteres Lasse Spangenbergs unikke og eventyrlige kreationer.",
+        "farve": "254,93,159",
+        "billede":"img/selvskab.jpg",
+        "id":"selvskab",
+        "sted":"tidensSamling",
+        "type":["1900"],
+        "tid":"10. februar – 12. december 2020",
+        "lokation":"Tidens Samling",
+        "website":"https://tidenssamling.dk/udstillinger/aktuel-saerudstilling/",
+        "beskrivelse":"Museet Tidens Samlings nye særudstilling 2020 ‘Klædt på til alle tiders selskab’ giver et indblik i selskabslivets mode fra starten af det 20. århundrede og frem til i dag. Sammen med et udpluk af et helt århundredes dansk selskabsmode præsenteres Lasse Spangenbergs unikke og eventyrlige kreationer. <br> <br> Den fynske designer og kostumier Lasse Spangenberg forstår til fulde at udtrykke skønhed i form af selskabs- og bryllupskjoler. Hans navn er i over halvandet årti blevet kædet sammen med højeste kvalitet, og han har designet kjoler til blandt det danske kongehus. Igennem sin karriere har Spangenberg ladet sig inspirere af tidligere tiders sirlige skrædderkunst og elegance. Han er en kraftfuld ”stemme” i den danske selskabsmodes nutid og fremtid. <br> <br> Tidens Samling råder over Nordens største private samling fra det 20. århundrede, der bl.a. rummer hundredvis af smukke, ekstravagante, stilfulde selskabskjoler og herrernes stiveste puds, der fortjener at blive vist frem. Modeskaber Lasse Spangenberg og museumsdirektør Cæcilie Ning Hage har – med sans for elegance, mode og historiske tendenser – nøje udvalgt det mest interessante og tidstypiske selskabstøj til denne særudstilling. Den danske selskabsmode har forandret sig markant igennem det forrige århundrede. I særudstillingen kan museets gæster gå igennem tidernes selskabsliv og opleve udviklingen fra de brølende 20’eres charlestonfester til 30’erne- og 40’ernes elegance og 60’ernes farverige cocktailparties. Særudstillingen viser, hvordan mode og selskabstøj udvikler sig og afspejler tidligere tiders tendenser og binder fortid og nutid sammen."
     }
 ]

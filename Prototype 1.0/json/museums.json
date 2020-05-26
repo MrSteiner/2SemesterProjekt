@@ -80,5 +80,31 @@
         "tider":"Tirsdag – søndag kl. 10-16",
         "website":"https://montergarden.dk/",
         "beskrivelse":"Museets billedsamling består blandt andet af en stor samling pressefotografier, heriblandt Politikens historiske samling. Dele af samlingen er hidrørende fra nogle af Danmarks markante pressefotografer, som eksempelvis Mogens von Haven og Tage Christensen. Mediemuseet har tegnerne og illustratorerne Des Asmussens, Aage Sikker Hansens og Arne Ungermanns samlinger samt Dansk Litograflaugs samling af litografier/stentryk ca. 1820-1880.Hertil kommer en større samling af film og medieklip af forskellig art. Der arbejdes løbende på at digitalisere og tilgængeliggøre Mediemuseets billedsamlinger online."
+    },
+    {
+        "navn":"Odense By",
+        "beskrivelseKort":"Gå på opdagelse i de kulturelle oplevelser der er at finde i selve byen",
+        "farve": "6,214,160",
+        "billede":"img/odense.jpg",
+        "id":"odense",
+        "type":["odense"],
+        "adresse":"Hele byen",
+        "priser":"Udelukkende gratis kultur",
+        "tider":"Værker der kan ses på alle tidspunkter",
+        "website":"https://oplev.odense.dk/",
+        "beskrivelse":"Odense er en by med rig kultur der kan opleves på dets stier og gader, fortab dig i byens tusindårige historie og kultur."
+    },
+    {
+        "navn":"Tidens samling",
+        "beskrivelseKort":"Tidens Samling i Odense er et kulturhistorisk hands-on museum for klæder, form og bolig i det 20. århundrede fra 1900 - 1990’erne. Her må du sætte dig i møblerne, åbne skufferne, kigge i bøgerne og prøve tøjet.",
+        "farve": "254,93,159",
+        "billede":"img/tidensSamling.jpg",
+        "id":"tidensSamling",
+        "type":["1900"],
+        "adresse":"FARVERGÅRDEN 7, 3. SAL 5000 ODENSE C",
+        "priser":"Voksne 65 kr. <br> Studerende med studiekort 50 kr. <br> Børn og unge 6-17 år 30 kr. <br>  Børn under 6 år Gratis <br> Grupper (minimum 12 personer) 50 kr. pr. person",
+        "tider":"Mandag-lørdag kl. 10-16",
+        "website":"https://tidenssamling.dk/",
+        "beskrivelse":"Tidens Samling i Odense er et kulturhistorisk hands-on museum for klæder, form og bolig i det 20. århundrede fra 1900 - 1990’erne. Her må du sætte dig i møblerne, åbne skufferne, kigge i bøgerne og prøve tøjet. Tidens Samlings grundlægger Annette Hage var fascineret af gamle ting og begyndte i 60’erne at samle på vores allesammens historie og rødder, mens andre havde travlt med at smide ud. Samleobjekterne var for andre ubetydelige hverdagsting, men for Annette fortalte de mere interessante historier end dem, som hun kunne læse i historiebøgerne. Den dag i dag er Tidens Samling stadig baseret på Annette Hages private samling, der sammen med museet er gået i arv til hendes datter Cæcilie Ning Hage. Cæcilie har siden 2004 været museumsdirektør ved Tidens Samling og har ført museet videre i samme ånd som sin mor. <br> <br> Tidens Samlings enorme lager af effekter, accessories og beklædning fra det 20. århundrede er med til at dokumentere den nære fortid. Danske og udenlandske filmproduktioner nyder godt af museets ekspertise inden for området."
     }
 ]

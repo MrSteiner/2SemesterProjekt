@@ -8,7 +8,7 @@
         "id":"standHaftig",
         "kunstner":"",
         "type":"statue",
-        "sted":"",
+        "sted":"odense",
         "emner":["Andersen"],
         "genstand":"",
         "info":"Bronzeskulpturen ”Den standhaftige tinsoldat” (1997) står i Overgade 19 i Odense og er skabt af Eiler Madsen. Statuen er af H.C. Andersens eventyr om den lille tinsoldat, der blev støbt som nummer 25 i rækken, og der var desværre ikke nok tin tilbage til den lille soldat, derfor mangler han det ene ben.",
@@ -25,7 +25,7 @@
         "id":"andersenBænken",
         "kunstner":"",
         "type":"statue",
-        "sted":"",
+        "sted":"odense",
         "emner":["Andersen"],
         "genstand":"",
         "info":"Claus Bergs Gade 7 5000 Odense C ",
@@ -39,7 +39,7 @@
         "id":"kejserensKlæder",
         "kunstner":"",
         "type":"statue",
-        "sted":"",
+        "sted":"odense",
         "emner":["Andersen"],
         "genstand":"",
           "info":"Brandts Passage 10 5000 Odense C",
@@ -53,7 +53,7 @@
         "id":"andersenStatuen",
         "kunstner":"",
         "type":"statue",
-        "sted":"",
+        "sted":"odense",
         "emner":["Andersen"],
         "info":"Eventyrhaven 5000 Odense C",
         "genstand":"",
@@ -67,7 +67,7 @@
         "id":"papirbåden",
         "kunstner":"",
         "type":"statue",
-        "sted":"",
+        "sted":"odense",
         "emner":["Andersen"],
         "genstand":"",
         "info":"Eventyrhaven 5000 Odense C",
@@ -81,7 +81,7 @@
         "id":"knudDenHellige",
         "kunstner":"",
         "type":"statue",
-        "sted":"",
+        "sted":"odense",
         "emner":["middelalder"],
         "genstand":"",
         "info":"I. Vilh. Werners Plads 11 5000 Odense C",
@@ -318,7 +318,7 @@
         "emner":["tegning","andersen"],
         "genstand":"HCA/XXIII-B-7",
         "info":"Inv. Nr. HCA/XXIII-B-7<br> 50476<br>",
-        "beskrivelse":"	Pjerrot, træ, engel, danserinde"  
+        "beskrivelse":"Pjerrot, træ, engel, danserinde"  
     },
     {
         "navn":"Papirklip af H.C. Andersen - Lille Mand",
@@ -332,6 +332,6 @@
         "emner":["tegning","andersen"],
         "genstand": "HCA/A-1116-I",
         "info":"Inv. Nr. HCA/A-1116-I<br> Billed Nr. 16849 <br> Størrelse: 5 x 3,8 cm",
-        "beskrivelse":"	Lille mand med tynde arme og ben - og en stor hat."  
+        "beskrivelse":"Lille mand med tynde arme og ben - og en stor hat."  
     }
 ]
