@@ -322,7 +322,7 @@
     },
     {
         "navn":"Papirklip af H.C. Andersen - Lille Mand",
-        "beskrivelseKort":"		Lille mand med tynde arme og ben - og en stor hat.",
+        "beskrivelseKort":"Lille mand med tynde arme og ben - og en stor hat.",
         "farve": "6,214,160",
         "billede":"img/lilleMand.jpg",
         "id":"lileMand",
