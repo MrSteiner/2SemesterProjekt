@@ -288,7 +288,7 @@
         "type":"tegning",
         "sted":"andersenMuseum",
         "emner":["tegning","andersen"],
-        "genstand": "	HCA/A-1116-C",
+        "genstand": "HCA/A-1116-C",
         "info":"Inv. Nr. HCA/A-1116-C<br> Billed Nr. 17287 <br> Størrelse: 23,5 x 16 cm",
         "beskrivelse":"Mand med gule bluse, hvide bukser og strømper - gule støvler med sporer - på hænderne. Jakken er lukket med en tegnet syning. Ansigtet er tegnet. Om halsen en uldsnor til at hænge juletræspynten op - denne uldsnor ligner et halstørklæde."  
     },
@@ -316,7 +316,7 @@
         "type":"tegning",
         "sted":"andersenMuseum",
         "emner":["tegning","andersen"],
-        "genstand": "	HCA/XXIII-B-7",
+        "genstand":"HCA/XXIII-B-7",
         "info":"Inv. Nr. HCA/XXIII-B-7<br> 50476<br>",
         "beskrivelse":"	Pjerrot, træ, engel, danserinde"  
     },
