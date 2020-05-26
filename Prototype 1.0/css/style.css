@@ -19,14 +19,11 @@
 #ContentBox{
     display: inline-block;
     margin-left: 5%;
-    top: 100px;
+    top: 20px;
     width: 95%;
     position: relative;
-    align-items: center;
-    justify-items: stretch;
 }
 .contentBlock{
-    display:inline-block;
     float:left;
     margin: 20px 1% 20px 1%;
     width: 14%;
@@ -40,7 +37,6 @@
     transition: 0.25s ease-out;
 }
 .contentBlock:hover{
-    display:inline-block;
     cursor: pointer;
     float: left;
     width: 14.3%;
