@@ -541,7 +541,8 @@ function emnePage(emne){
                                     <p>${emneP.beskrivelse} </p>
                                     </div>
                                 </div>
-                                <div style ="background-color:white; width:100%; height 24px;">
+                                <div style ="background-color:white; width:100%; magin:auto color:white">
+                                    <p style ="color:white">.
                                 </div>
                                 
                                 `)
